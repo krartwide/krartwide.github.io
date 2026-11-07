@@ -6,8 +6,7 @@ const nextConfig: NextConfig = {
   ...(isPages
     ? {
         output: "export" as const,
-        basePath: "/diari",
-        assetPrefix: "/diari/",
+        // User site https://krartwide.github.io/ — no basePath.
         images: { unoptimized: true },
         trailingSlash: true,
       }

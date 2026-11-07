@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Static export for GitHub Pages.
+# Static export for GitHub Pages (https://krartwide.github.io/).
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
@@ -7,4 +7,4 @@ cd "$ROOT"
 export GITHUB_PAGES=true
 npx next build
 
-echo "Static site ready in out/ (basePath /diari)"
+echo "Static site ready in out/ (site root)"

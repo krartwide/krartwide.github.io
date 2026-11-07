@@ -8,11 +8,11 @@
 
 ## 기록 저장
 
-경기·팀·업적은 **이 브라우저의 IndexedDB**에만 남습니다. 서버 DB·동기화 코드는 쓰지 않습니다.
+경기·팀·업적은 **이 브라우저의 IndexedDB**에만 남습니다.
 
 같은 사이트 주소·같은 브라우저로 다시 열면 기록이 유지됩니다. 시크릿 창·다른 기기·캐시 삭제 시에는 비워질 수 있습니다.
 
-- Pages: https://krartwide.github.io/diari/
+- 사이트: https://krartwide.github.io/
 
 ## 경기 모드
 
@@ -38,7 +38,7 @@ npm run dev
 npm run build:pages
 ```
 
-`main` 푸시 시 `.github/workflows/pages.yml`이 https://krartwide.github.io/diari/ 로 배포합니다.
+`main` 푸시 시 `.github/workflows/pages.yml`이 https://krartwide.github.io/ 로 배포합니다.
 
 ## 기록 입력
 
