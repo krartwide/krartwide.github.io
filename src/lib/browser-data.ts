@@ -58,6 +58,7 @@ export async function saveLocalTeam(team: Team) {
   if (team.visibility === "public" && !team.canonical) {
     await grantLocalAchievement("public_team");
   }
+  void import("@/lib/cloud-sync").then((mod) => mod.syncCloudQuietly());
   return payload;
 }
 
@@ -106,6 +107,7 @@ export async function saveLocalGame(game: GameRecord) {
     for (const old of overflow) await idbDelete("games", old.id);
   }
   await awardLocalGameAchievements(payload);
+  void import("@/lib/cloud-sync").then((mod) => mod.syncCloudQuietly());
   return payload;
 }
 

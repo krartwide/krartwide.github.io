@@ -13,6 +13,7 @@ const nextConfig: NextConfig = {
     : {
         // Headless/local testing hits 127.0.0.1 while the server may see localhost.
         allowedDevOrigins: ["127.0.0.1", "localhost"],
+        serverExternalPackages: ["@electric-sql/pglite", "pg"],
       }),
   turbopack: {
     rules: {
