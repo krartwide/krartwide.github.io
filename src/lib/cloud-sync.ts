@@ -1,6 +1,7 @@
 "use client";
 
-import { idbGetAll, idbPut } from "@/lib/browser-db";
+import { idbDelete, idbGetAll, idbPut } from "@/lib/browser-db";
+import { listDeletedGameIds, writeDeletedGameIds } from "@/lib/deleted-games";
 import { mergeVaults, normalizeVault } from "@/lib/vault-merge";
 import type { VaultPayload } from "@/lib/vault-types";
 import type { GameRecord, Team } from "@/lib/types";
@@ -18,20 +19,35 @@ export async function buildLocalVault(): Promise<VaultPayload> {
   const games = await idbGetAll<GameRecord>("games");
   const teams = await idbGetAll<Team>("teams");
   const achievements = await idbGetAll<{ key: string; earnedAt: string }>("achievements");
+  const deletedGameIds = await listDeletedGameIds();
+  const deleted = new Set(deletedGameIds);
   return {
     version: 1,
     updatedAt: new Date().toISOString(),
-    games: games.sort((a, b) => b.createdAt.localeCompare(a.createdAt)).slice(0, 120),
+    games: games
+      .filter((game) => !deleted.has(game.id))
+      .sort((a, b) => b.createdAt.localeCompare(a.createdAt))
+      .slice(0, 120),
     teams: teams.filter((team) => !team.canonical).slice(0, 80),
     achievements: achievements.slice(0, 40),
+    deletedGameIds,
   };
 }
 
-/** Merge remotes into local storage. Never deletes local-only games. */
+/** Merge remotes into local storage. Never resurrects tombstoned games. */
 export async function applyVault(payload: VaultPayload) {
   const normalized = normalizeVault(payload);
+  const deleted = new Set(normalized.deletedGameIds ?? []);
+
+  if (deleted.size > 0) {
+    await writeDeletedGameIds([...deleted]);
+    for (const id of deleted) {
+      await idbDelete("games", id);
+    }
+  }
+
   for (const game of normalized.games) {
-    if (!game?.id) continue;
+    if (!game?.id || deleted.has(game.id)) continue;
     const existing = await idbGetAll<GameRecord>("games").then((rows) => rows.find((row) => row.id === game.id));
     if (!existing || game.createdAt >= existing.createdAt) {
       await idbPut("games", game);

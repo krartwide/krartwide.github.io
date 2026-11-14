@@ -6,6 +6,8 @@ export type VaultPayload = {
   games: GameRecord[];
   teams: Team[];
   achievements: { key: string; earnedAt: string }[];
+  /** Tombstones so a deleted game is not resurrected by cloud merge. */
+  deletedGameIds?: string[];
 };
 
 export function emptyVault(): VaultPayload {
@@ -15,5 +17,6 @@ export function emptyVault(): VaultPayload {
     games: [],
     teams: [],
     achievements: [],
+    deletedGameIds: [],
   };
 }

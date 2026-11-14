@@ -3,6 +3,7 @@
 import canonicalRaw from "@/data/canonical-teams.json";
 import { ACHIEVEMENT_CATALOG, type AchievementKey } from "@/lib/achievement-catalog";
 import { idbDelete, idbGet, idbGetAll, idbPut } from "@/lib/browser-db";
+import { rememberDeletedGameId, removeDeletedGameId } from "@/lib/deleted-games";
 import { newId, rosterIssues } from "@/lib/stats";
 import type { GameRecord, SeriesFormat, SeriesRecord, Team, VenueMode } from "@/lib/types";
 
@@ -101,6 +102,8 @@ export async function findLocalGame(id: string): Promise<GameRecord | null> {
 export async function saveLocalGame(game: GameRecord) {
   const payload = { ...game, ownerId: LOCAL_OWNER_ID };
   await idbPut("games", payload);
+  // Saving again clears a prior delete tombstone for this id.
+  await removeDeletedGameId(payload.id);
   const games = await listLocalGames();
   if (games.length > GAME_CAP) {
     const overflow = games.slice(GAME_CAP);
@@ -109,6 +112,14 @@ export async function saveLocalGame(game: GameRecord) {
   await awardLocalGameAchievements(payload);
   void import("@/lib/cloud-sync").then((mod) => mod.syncCloudQuietly());
   return payload;
+}
+
+/** Delete a game from this browser. Tombstone keeps cloud merge from restoring it. */
+export async function deleteLocalGame(id: string) {
+  await idbDelete("games", id);
+  await rememberDeletedGameId(id);
+  void import("@/lib/cloud-sync").then((mod) => mod.syncCloudQuietly());
+  return true;
 }
 
 export async function playLocalSeries(input: {
