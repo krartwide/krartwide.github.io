@@ -5,6 +5,7 @@ import { CountField, RateField } from "@/components/rate-field";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogFooter, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { Input } from "@/components/ui/input";
+import { ARM_SLOT_OPTIONS, defaultArmSlot, type ArmSlot } from "@/lib/arm-slot";
 import { POSITIONS, POSITION_LABEL, recomputeBatterRates, recomputePitcherRates } from "@/lib/stats";
 import type { Bats, Player, Position, Throws } from "@/lib/types";
 
@@ -98,6 +99,25 @@ export function PlayerDialog({
                   </option>
                 ))}
               </select>
+            </label>
+          )}
+          {draft.kind === "P" && (
+            <label className="grid gap-1 text-xs sm:col-span-2">
+              <span className="text-muted-foreground">투구 폼</span>
+              <select
+                className="field-select"
+                value={draft.armSlot ?? defaultArmSlot(draft.name, draft.throws)}
+                onChange={(event) => setDraft({ ...draft, armSlot: event.target.value as ArmSlot })}
+              >
+                {ARM_SLOT_OPTIONS.map((opt) => (
+                  <option key={opt.id} value={opt.id}>
+                    {opt.familyLabel} · {opt.label}
+                  </option>
+                ))}
+              </select>
+              <span className="text-[11px] text-muted-foreground">
+                {ARM_SLOT_OPTIONS.find((opt) => opt.id === (draft.armSlot ?? defaultArmSlot(draft.name, draft.throws)))?.blurb}
+              </span>
             </label>
           )}
         </div>

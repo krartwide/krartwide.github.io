@@ -2,10 +2,11 @@
 
 import canonicalRaw from "@/data/canonical-teams.json";
 import { ACHIEVEMENT_CATALOG, type AchievementKey } from "@/lib/achievement-catalog";
+import { defaultArmSlot } from "@/lib/arm-slot";
 import { idbDelete, idbGet, idbGetAll, idbPut } from "@/lib/browser-db";
 import { rememberDeletedGameId, removeDeletedGameId } from "@/lib/deleted-games";
 import { newId, rosterIssues } from "@/lib/stats";
-import type { GameRecord, SeriesFormat, SeriesRecord, Team, VenueMode } from "@/lib/types";
+import type { GameRecord, Player, SeriesFormat, SeriesRecord, Team, VenueMode } from "@/lib/types";
 
 export const LOCAL_OWNER_ID = "browser-solo";
 export const LOCAL_OWNER_NAME = "다이아리";
@@ -19,11 +20,54 @@ function withCanonicalFlag(team: Team): Team {
   return { ...team, canonical: true, visibility: "public", ownerId: null };
 }
 
+/** Keep local logo/color edits while refreshing bundled pitcher arm slots. */
+function mergePlayers(canon: Player[], override: Player[] | undefined): Player[] {
+  if (!override?.length) {
+    return canon.map((player) =>
+      player.kind === "P" ? { ...player, armSlot: player.armSlot ?? defaultArmSlot(player.name, player.throws) } : player,
+    );
+  }
+  const byId = new Map(override.map((player) => [player.id, player]));
+  const bySource = new Map(
+    override.filter((player) => player.sourceId).map((player) => [player.sourceId!, player]),
+  );
+  const merged = canon.map((player) => {
+    const local = byId.get(player.id) ?? (player.sourceId ? bySource.get(player.sourceId) : undefined);
+    if (!local) {
+      return player.kind === "P" ? { ...player, armSlot: player.armSlot ?? defaultArmSlot(player.name, player.throws) } : player;
+    }
+    return {
+      ...player,
+      ...local,
+      armSlot: local.armSlot ?? player.armSlot ?? (player.kind === "P" ? defaultArmSlot(player.name, player.throws) : undefined),
+      batter: local.batter ?? player.batter,
+      pitcher: local.pitcher ?? player.pitcher,
+      positions: local.positions?.length ? local.positions : player.positions,
+    };
+  });
+  const canonIds = new Set(canon.map((player) => player.id));
+  const extras = override.filter((player) => !canonIds.has(player.id));
+  return [...merged, ...extras];
+}
+
 function mergeTeams(stored: Team[]): Team[] {
   const byId = new Map(stored.map((team) => [team.id, team]));
   const canon = canonicalTeams.map((team) => {
+    const base = withCanonicalFlag(team);
     const override = byId.get(team.id);
-    return override ? { ...override, canonical: true } : withCanonicalFlag(team);
+    if (!override) return base;
+    // User logo/color edits on public clubs live in IndexedDB — never wipe them.
+    return {
+      ...base,
+      ...override,
+      canonical: true,
+      visibility: "public" as const,
+      ownerId: null,
+      logo: override.logo !== undefined ? override.logo : base.logo,
+      primary: override.primary || base.primary,
+      secondary: override.secondary || base.secondary,
+      players: mergePlayers(base.players, override.players),
+    };
   });
   const custom = stored.filter((team) => !canonicalTeams.some((item) => item.id === team.id));
   return [...canon, ...custom];

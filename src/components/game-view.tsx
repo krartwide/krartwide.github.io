@@ -4,6 +4,7 @@ import { useState } from "react";
 import { SprayChart } from "@/components/spray-chart";
 import { StrikeZone } from "@/components/strike-zone";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { armSlotLabel } from "@/lib/arm-slot";
 import { pitchRpm } from "@/lib/pitch-metrics";
 import { groupHalves, halfLabel } from "@/lib/present";
 import { fmtIp } from "@/lib/stats";
@@ -226,8 +227,8 @@ export function GameView({ game }: { game: GameRecord }) {
                     {pa.pitcherName} → {pa.batterName}
                   </p>
                   <p className="text-xs text-muted-foreground">
-                    {active.number}구 {active.typeLabel} {active.velo}km · {pitchRpm(active).toLocaleString("ko-KR")} rpm · {active.callLabel} ·{" "}
-                    {active.locationLabel}
+                    {active.number}구 {active.typeLabel} {active.velo}km · {pitchRpm(active).toLocaleString("ko-KR")} rpm ·{" "}
+                    {armSlotLabel(active.armSlot)} · {active.callLabel} · {active.locationLabel}
                   </p>
                 </div>
                 <div className="mx-auto w-full max-w-[280px]">

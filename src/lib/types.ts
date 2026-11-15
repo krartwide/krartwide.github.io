@@ -1,5 +1,8 @@
+import type { ArmSlot } from "@/lib/arm-slot";
+
 export type Bats = "L" | "R" | "S";
 export type Throws = "L" | "R";
+export type { ArmSlot };
 export type Position =
   | "C"
   | "1B"
@@ -67,6 +70,8 @@ export type Player = {
   bats: Bats;
   throws: Throws;
   positions: Position[];
+  /** Pitcher arm slot / delivery. Ignored for batters. */
+  armSlot?: ArmSlot;
   batter?: BatterLine;
   pitcher?: PitcherLine;
   sourceId?: string;
@@ -125,6 +130,9 @@ export type PitchEvent = {
   velo: number;
   /** Spin rate in RPM. Older saves may omit this — UI estimates from code/velo. */
   rpm?: number;
+  /** Delivery used for this pitch's flight path. Older saves may omit it. */
+  armSlot?: ArmSlot;
+  throws?: Throws;
   x: number;
   y: number;
   call: PitchCall;

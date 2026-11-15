@@ -243,6 +243,7 @@ export function blankPitcher(name = ""): Player {
     bats: "R",
     throws: "R",
     positions: ["P"],
+    armSlot: "tq_true",
     pitcher: {
       g: 0,
       w: 0,

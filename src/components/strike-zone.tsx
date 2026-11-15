@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
+import { armSlotLabel, releasePointForSlot, slotBreakBias } from "@/lib/arm-slot";
 import { pitchRpm } from "@/lib/pitch-metrics";
 import type { PitchEvent } from "@/lib/types";
 
@@ -48,8 +49,10 @@ function pathFromPoints(pts: Point[]) {
 /** Release → plate path with pitch-type break for a catcher's-eye view. */
 function buildPitchFlight(pitch: PitchEvent) {
   const end = { x: px(pitch.x), y: py(pitch.y) };
-  // Release roughly center-high (mound away from the plate at the bottom).
-  const release = { x: 110 + pitch.x * 10, y: 18 };
+  const throws = pitch.throws ?? "R";
+  const release = releasePointForSlot(pitch.armSlot, throws);
+  const slotBias = slotBreakBias(pitch.armSlot);
+  const side = throws === "L" ? -1 : 1;
 
   let breakX = 0;
   let breakY = 0;
@@ -83,8 +86,8 @@ function buildPitchFlight(pitch: PitchEvent) {
   }
 
   const mid = {
-    x: release.x + (end.x - release.x) * 0.55 + breakX,
-    y: release.y + (end.y - release.y) * 0.55 + breakY,
+    x: release.x + (end.x - release.x) * 0.55 + breakX + slotBias.x * side,
+    y: release.y + (end.y - release.y) * 0.55 + breakY + slotBias.y,
   };
 
   const points = sampleQuadratic(release, mid, end);
@@ -286,7 +289,7 @@ export function StrikeZone({
       </div>
       {active && flight && (
         <p className="text-[11px] leading-4 text-muted-foreground">
-          {active.velo}km · {flight.rpm.toLocaleString("ko-KR")} rpm
+          {armSlotLabel(active.armSlot)} · {active.velo}km · {flight.rpm.toLocaleString("ko-KR")} rpm
           {playing ? " · 비행 중" : " · 존을 탭하면 다시 날림"}
         </p>
       )}
