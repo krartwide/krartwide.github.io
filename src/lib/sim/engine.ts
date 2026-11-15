@@ -1,4 +1,12 @@
 import { defaultArmSlot } from "@/lib/arm-slot";
+import {
+  arsenalFromCodes,
+  normalizeArsenal,
+  pickWeightedPitch,
+  pitchDef,
+  pitchLabel,
+  type PitchArsenalEntry,
+} from "@/lib/pitch-catalog";
 import { rollRpm } from "@/lib/pitch-metrics";
 import { batterOf, fmtIp, outsFromInnings, pitcherOf } from "@/lib/stats";
 import type {
@@ -76,30 +84,7 @@ type BatLine = {
   hbp: number;
 };
 
-const PITCH_NAME: Record<string, string> = {
-  ff: "포심 패스트볼",
-  ft: "투심 패스트볼",
-  si: "싱커",
-  ct: "커터",
-  sl: "슬라이더",
-  cb: "커브",
-  ch: "체인지업",
-  sp: "스플리터",
-  fo: "포크볼",
-};
-
-const PITCH_OFF: Record<string, number> = {
-  ff: 0,
-  ft: -3,
-  si: -4,
-  ct: -6,
-  sl: -9,
-  cb: -16,
-  ch: -12,
-  sp: -8,
-  fo: -10,
-};
-
+/** Legacy named arsenals — used to seed players without an explicit arsenal. */
 const SIGNATURE: Record<string, string[]> = {
   선동열: ["ff", "fo", "sl"],
   오승환: ["ff", "sl", "cb"],
@@ -137,6 +122,10 @@ const SIGNATURE: Record<string, string[]> = {
   봉중근: ["ff", "sl", "ch"],
   장원삼: ["ff", "ch", "cb"],
   권혁: ["ff", "sl", "ch"],
+  박종훈: ["si", "sl", "cb", "ch"],
+  임기영: ["ff", "sl", "ch", "cb"],
+  한현희: ["ff", "sl", "ch"],
+  엄상백: ["ff", "ch", "ct", "sl"],
 };
 
 const CALL_LABEL: Record<PitchCall, string> = {
@@ -326,7 +315,7 @@ function sampleResult(rates: Rates, rng: Rng): ResultCode {
   return "GO";
 }
 
-function repertoire(player: Player) {
+function heuristicCodes(player: Player): string[] {
   if (SIGNATURE[player.name]) return SIGNATURE[player.name]!;
   const p = pitcherOf(player);
   const ip = Math.max(0.1, p.ip);
@@ -339,13 +328,27 @@ function repertoire(player: Player) {
   return ["ff", "sl", "ch", "cb"];
 }
 
-function choosePitch(rep: string[], balls: number, strikes: number, rng: Rng) {
+function repertoire(player: Player): PitchArsenalEntry[] {
+  const owned = normalizeArsenal(player.arsenal);
+  if (owned.length) return owned;
+  return arsenalFromCodes(heuristicCodes(player));
+}
+
+function choosePitch(rep: PitchArsenalEntry[], balls: number, strikes: number, rng: Rng) {
   if (strikes === 2 && rng() < 0.6) {
-    const put = rep.filter((code) => code !== "ff" && code !== "ft");
-    if (put.length) return pick(rng, put);
+    const put = rep.filter((entry) => entry.code !== "ff" && entry.code !== "ft" && entry.code !== "rs");
+    if (put.length) return pickWeightedPitch(put, rng);
   }
-  if (balls > strikes && rng() < 0.62) return rep[0]!;
-  return pick(rng, rep);
+  if (balls > strikes && rng() < 0.62) {
+    // Prefer the best-graded heater / primary when behind.
+    const sorted = [...rep].sort(
+      (a, b) => (pitchDef(b.code)?.veloOff ?? 0) - (pitchDef(a.code)?.veloOff ?? 0),
+    );
+    const heaters = sorted.filter((entry) => (pitchDef(entry.code)?.family ?? "") === "fastball");
+    if (heaters.length) return pickWeightedPitch(heaters, rng);
+    return sorted[0]!.code;
+  }
+  return pickWeightedPitch(rep, rng);
 }
 
 function locate(call: PitchCall, bats: Bats, rng: Rng) {
@@ -1094,15 +1097,16 @@ class Sim {
       else if (call === "called_strike" || call === "swinging_strike") strikes += 1;
       else if (call === "foul" && strikes < 2) strikes += 1;
       const typicalFb = maxFb - (2.4 + this.rng() * 3.6);
-      let velo = typicalFb + (PITCH_OFF[code] ?? 0) + this.rng() * 2.2 - 0.8;
+      const veloOff = pitchDef(code)?.veloOff ?? 0;
+      let velo = typicalFb + veloOff + this.rng() * 2.2 - 0.8;
       if (code === "ff" && this.rng() < 0.14) velo = maxFb - this.rng() * 1.1;
-      const roundedVelo = clamp(Math.round(velo), 98, maxFb);
+      const roundedVelo = clamp(Math.round(velo), 70, maxFb);
       const armSlot = pitcher.armSlot ?? defaultArmSlot(pitcher.name, pitcher.throws);
       const pitch: PitchEvent = {
         id: nid("pit"),
         number: pitches.length + 1,
         code,
-        typeLabel: PITCH_NAME[code] ?? code,
+        typeLabel: pitchLabel(code),
         velo: roundedVelo,
         rpm: rollRpm(code, roundedVelo, this.rng),
         armSlot,

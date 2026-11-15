@@ -1,23 +1,16 @@
-/** Typical spin bands (RPM) by pitch code — used for new sims and older saves without rpm. */
-const RPM_BASE: Record<string, [number, number]> = {
-  ff: [2100, 2450],
-  ft: [1900, 2300],
-  si: [1800, 2250],
-  ct: [2200, 2600],
-  sl: [2300, 2900],
-  cb: [2400, 3100],
-  ch: [1500, 2000],
-  sp: [1200, 1700],
-  fo: [1100, 1650],
-};
+import { pitchDef } from "@/lib/pitch-catalog";
 
 function clamp(n: number, lo: number, hi: number) {
   return Math.max(lo, Math.min(hi, n));
 }
 
+function rpmBand(code: string): [number, number] {
+  return pitchDef(code)?.rpm ?? [1800, 2400];
+}
+
 /** Deterministic-looking RPM from code + velo when a stored value is missing. */
 export function estimateRpm(code: string, velo: number, jitter = 0.5): number {
-  const [lo, hi] = RPM_BASE[code] ?? [1800, 2400];
+  const [lo, hi] = rpmBand(code);
   const mid = (lo + hi) / 2;
   // Harder heaters tend to carry a bit more spin; soft toss a bit less.
   const veloTilt = clamp((velo - 135) * 6, -120, 140);
@@ -37,7 +30,7 @@ export function pitchRpm(pitch: { code: string; velo: number; rpm?: number }): n
 
 /** Sample RPM when creating a new pitch in the sim. */
 export function rollRpm(code: string, velo: number, rng: () => number): number {
-  const [lo, hi] = RPM_BASE[code] ?? [1800, 2400];
+  const [lo, hi] = rpmBand(code);
   const base = lo + rng() * (hi - lo);
   const veloTilt = clamp((velo - 135) * 6, -120, 140);
   return Math.round(clamp(base + veloTilt + (rng() - 0.5) * 90, lo - 60, hi + 100));

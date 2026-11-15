@@ -1,11 +1,13 @@
 "use client";
 
 import { useState } from "react";
+import { PitchArsenalEditor } from "@/components/pitch-arsenal-editor";
 import { CountField, RateField } from "@/components/rate-field";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogFooter, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { Input } from "@/components/ui/input";
 import { ARM_SLOT_OPTIONS, defaultArmSlot, type ArmSlot } from "@/lib/arm-slot";
+import { defaultArsenal, normalizeArsenal } from "@/lib/pitch-catalog";
 import { POSITIONS, POSITION_LABEL, recomputeBatterRates, recomputePitcherRates } from "@/lib/stats";
 import type { Bats, Player, Position, Throws } from "@/lib/types";
 
@@ -18,7 +20,11 @@ export function PlayerDialog({
   onClose: () => void;
   onSave: (player: Player) => void;
 }) {
-  const [draft, setDraft] = useState(player);
+  const [draft, setDraft] = useState(() => {
+    if (player.kind !== "P") return player;
+    const arsenal = normalizeArsenal(player.arsenal);
+    return arsenal.length ? { ...player, arsenal } : { ...player, arsenal: defaultArsenal(player.throws) };
+  });
   const batter = draft.batter;
   const pitcher = draft.pitcher;
 
@@ -120,6 +126,12 @@ export function PlayerDialog({
               </span>
             </label>
           )}
+          {draft.kind === "P" && (
+            <PitchArsenalEditor
+              arsenal={normalizeArsenal(draft.arsenal)}
+              onChange={(arsenal) => setDraft({ ...draft, arsenal })}
+            />
+          )}
         </div>
 
         {draft.kind === "B" && batter && (
@@ -179,6 +191,7 @@ export function PlayerDialog({
         <p className="text-xs leading-5 text-muted-foreground">
           타율·출루율·장타율·OPS는 285를 넣으면 0.285가 됩니다. ERA·WHIP은 325가 3.25, sWAR는 635가 6.35입니다. 소수점을 직접 찍어도 됩니다.
           이닝은 188.2 또는 188 2/3처럼 적어도 됩니다. 타자 속도는 주루 등급, 투수 구속은 최고 시속입니다. 시뮬은 평소 그보다 조금 낮게 던지고, 가끔만 최고에 닿습니다.
+          투수 구종은 개수 제한 없이 넣고 빼며, 각 구종 구위는 E~SS로 정합니다.
         </p>
         <DialogFooter>
           <Button type="button" variant="outline" onClick={fillFromCounting}>

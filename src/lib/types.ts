@@ -1,8 +1,9 @@
 import type { ArmSlot } from "@/lib/arm-slot";
+import type { PitchArsenalEntry, StuffGrade } from "@/lib/pitch-catalog";
 
 export type Bats = "L" | "R" | "S";
 export type Throws = "L" | "R";
-export type { ArmSlot };
+export type { ArmSlot, PitchArsenalEntry, StuffGrade };
 export type Position =
   | "C"
   | "1B"
@@ -72,6 +73,11 @@ export type Player = {
   positions: Position[];
   /** Pitcher arm slot / delivery. Ignored for batters. */
   armSlot?: ArmSlot;
+  /**
+   * Pitch arsenal: any number of world pitch types with E–SS stuff grades.
+   * Ignored for batters. Empty/missing → sim falls back to heuristics.
+   */
+  arsenal?: PitchArsenalEntry[];
   batter?: BatterLine;
   pitcher?: PitcherLine;
   sourceId?: string;

@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import { armSlotLabel, armSlotOption, releasePointForSlot, slotBreakBias } from "@/lib/arm-slot";
+import { pitchDef } from "@/lib/pitch-catalog";
 import { pitchRpm } from "@/lib/pitch-metrics";
 import type { PitchEvent } from "@/lib/types";
 
@@ -54,36 +55,16 @@ function buildPitchFlight(pitch: PitchEvent) {
   const slotBias = slotBreakBias(pitch.armSlot);
   const side = throws === "L" ? -1 : 1;
 
-  let breakX = 0;
-  let breakY = 0;
-  switch (pitch.code) {
-    case "cb":
-      breakX = pitch.x * 8;
-      breakY = 28;
-      break;
-    case "sl":
-      breakX = (pitch.x >= 0 ? 1 : -1) * 18;
-      breakY = 14;
-      break;
-    case "ct":
-      breakX = (pitch.x >= 0 ? 1 : -1) * 10;
-      breakY = 8;
-      break;
-    case "ch":
-    case "sp":
-    case "fo":
-      breakX = pitch.x * 6;
-      breakY = 18;
-      break;
-    case "si":
-    case "ft":
-      breakX = (pitch.x >= 0 ? -1 : 1) * 8;
-      breakY = 10;
-      break;
-    default:
-      breakX = pitch.x * 3;
-      breakY = 4;
-  }
+  const def = pitchDef(pitch.code);
+  const base = def?.break ?? { x: 3, y: 4 };
+  // Mirror horizontal break toward the arm side / glove side from catcher's view.
+  const breakX =
+    def?.family === "breaking" || def?.family === "specialty"
+      ? (pitch.x >= 0 ? 1 : -1) * Math.abs(base.x)
+      : def?.family === "fastball" && (pitch.code === "si" || pitch.code === "ft" || pitch.code === "su")
+        ? (pitch.x >= 0 ? -1 : 1) * Math.abs(base.x)
+        : pitch.x * Math.min(8, Math.abs(base.x));
+  const breakY = base.y;
 
   // Low slots start near/below the zone — keep underhand nearly linear so it
   // does not read as a hooked three-quarter tunnel.

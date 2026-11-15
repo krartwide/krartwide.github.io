@@ -720,7 +720,21 @@
           "er": 61,
           "r": 68
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2021-kt:p50040",
@@ -751,7 +765,21 @@
           "er": 71,
           "r": 81
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2021-kt:p50030",
@@ -782,7 +810,21 @@
           "er": 55,
           "r": 67
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2021-kt:p65516",
@@ -813,7 +855,21 @@
           "er": 58,
           "r": 67
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2021-kt:p65056",
@@ -844,7 +900,25 @@
           "er": 24,
           "r": 24
         },
-        "armSlot": "sa_high"
+        "armSlot": "sa_high",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "A"
+          },
+          {
+            "code": "ct",
+            "grade": "B"
+          },
+          {
+            "code": "sl",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2021-kt:p64001",
@@ -875,7 +949,25 @@
           "er": 54,
           "r": 59
         },
-        "armSlot": "un_high"
+        "armSlot": "un_high",
+        "arsenal": [
+          {
+            "code": "ch",
+            "grade": "A"
+          },
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2021-kt:p65060",
@@ -906,7 +998,25 @@
           "er": 18,
           "r": 19
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ft",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2021-kt:p67008",
@@ -937,7 +1047,25 @@
           "er": 12,
           "r": 15
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2021-kt:p65048",
@@ -968,7 +1096,25 @@
           "er": 19,
           "r": 25
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2021-kt:p64017",
@@ -999,7 +1145,25 @@
           "er": 15,
           "r": 15
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2021-kt:p60559",
@@ -1030,7 +1194,25 @@
           "er": 12,
           "r": 16
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "sp",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2021-kt:p64047",
@@ -1061,7 +1243,25 @@
           "er": 9,
           "r": 10
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2021-kt:p65062",
@@ -1092,7 +1292,21 @@
           "er": 18,
           "r": 19
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "fo",
+            "grade": "B"
+          }
+        ]
       }
     ],
     "createdAt": "2021-10-01T00:00:00.000Z"
@@ -1743,7 +1957,21 @@
           "er": 54,
           "r": 54
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2014-ss:p74454",
@@ -1774,7 +2002,25 @@
           "er": 83,
           "r": 87
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2014-ss:p76355",
@@ -1805,7 +2051,21 @@
           "er": 59,
           "r": 70
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2014-ss:p64430",
@@ -1836,7 +2096,25 @@
           "er": 68,
           "r": 69
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2014-ss:p70425",
@@ -1867,7 +2145,25 @@
           "er": 81,
           "r": 87
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2014-ss:p72463",
@@ -1898,7 +2194,21 @@
           "er": 26,
           "r": 27
         },
-        "armSlot": "tq_high"
+        "armSlot": "tq_high",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2014-ss:p76455",
@@ -1929,7 +2239,21 @@
           "er": 51,
           "r": 57
         },
-        "armSlot": "tq_low"
+        "armSlot": "tq_low",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2014-ss:p61411",
@@ -1960,7 +2284,21 @@
           "er": 29,
           "r": 33
         },
-        "armSlot": "sa_true"
+        "armSlot": "sa_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "sp",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2014-ss:p72447",
@@ -1991,7 +2329,21 @@
           "er": 11,
           "r": 13
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2014-ss:p77446",
@@ -2022,7 +2374,25 @@
           "er": 27,
           "r": 28
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "sp",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2014-ss:p60457",
@@ -2053,7 +2423,25 @@
           "er": 8,
           "r": 8
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2014-ss:p95657",
@@ -2084,7 +2472,21 @@
           "er": 29,
           "r": 33
         },
-        "armSlot": "sa_true"
+        "armSlot": "sa_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sp",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "B"
+          }
+        ]
       }
     ],
     "createdAt": "2014-10-01T00:00:00.000Z"
@@ -2846,7 +3248,21 @@
           "er": 74,
           "r": 88
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2017-ht:p66643",
@@ -2877,7 +3293,21 @@
           "er": 78,
           "r": 83
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2017-ht:p67645",
@@ -2908,7 +3338,21 @@
           "er": 81,
           "r": 86
         },
-        "armSlot": "tq_high"
+        "armSlot": "tq_high",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2017-ht:p62754",
@@ -2939,7 +3383,25 @@
           "er": 48,
           "r": 54
         },
-        "armSlot": "un_high"
+        "armSlot": "un_high",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2017-ht:p95657",
@@ -2970,7 +3432,21 @@
           "er": 21,
           "r": 22
         },
-        "armSlot": "sa_true"
+        "armSlot": "sa_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sp",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2017-ht:p60636",
@@ -3001,7 +3477,25 @@
           "er": 32,
           "r": 34
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2017-ht:p62648",
@@ -3032,7 +3526,25 @@
           "er": 41,
           "r": 41
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2017-ht:p72523",
@@ -3063,7 +3575,25 @@
           "er": 19,
           "r": 19
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2017-ht:p61643",
@@ -3094,7 +3624,25 @@
           "er": 42,
           "r": 44
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2017-ht:p60634",
@@ -3125,7 +3673,25 @@
           "er": 8,
           "r": 9
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2017-ht:p67646",
@@ -3156,7 +3722,21 @@
           "er": 42,
           "r": 45
         },
-        "armSlot": "sa_true"
+        "armSlot": "sa_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2017-ht:p76350",
@@ -3187,7 +3767,25 @@
           "er": 30,
           "r": 31
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       }
     ],
     "createdAt": "2017-10-01T00:00:00.000Z"
@@ -3873,7 +4471,25 @@
           "er": 52,
           "r": 58
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1994-lg:p86110",
@@ -3904,7 +4520,25 @@
           "er": 51,
           "r": 57
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1994-lg:p85150",
@@ -3935,7 +4569,25 @@
           "er": 61,
           "r": 72
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ft",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1994-lg:p94134",
@@ -3966,7 +4618,25 @@
           "er": 58,
           "r": 62
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ft",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1994-lg:p89111",
@@ -3997,7 +4667,25 @@
           "er": 34,
           "r": 37
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1994-lg:p86670",
@@ -4028,7 +4716,25 @@
           "er": 17,
           "r": 24
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ft",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1994-lg:p93121",
@@ -4059,7 +4765,25 @@
           "er": 11,
           "r": 18
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1994-lg:p92901",
@@ -4090,7 +4814,25 @@
           "er": 29,
           "r": 32
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ft",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1994-lg:p92915",
@@ -4121,7 +4863,25 @@
           "er": 12,
           "r": 13
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ft",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1994-lg:p85110",
@@ -4152,7 +4912,25 @@
           "er": 18,
           "r": 24
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "B"
+          }
+        ]
       }
     ],
     "createdAt": "1994-10-01T00:00:00.000Z"
@@ -4840,7 +5618,21 @@
           "er": 55,
           "r": 61
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ft",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2016-ob:p66226",
@@ -4871,7 +5663,21 @@
           "er": 76,
           "r": 83
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2016-ob:p74513",
@@ -4902,7 +5708,25 @@
           "er": 62,
           "r": 66
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2016-ob:p79229",
@@ -4933,7 +5757,21 @@
           "er": 91,
           "r": 95
         },
-        "armSlot": "oh_low"
+        "armSlot": "oh_low",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2016-ob:p77211",
@@ -4964,7 +5802,25 @@
           "er": 2,
           "r": 2
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2016-ob:p62242",
@@ -4995,7 +5851,25 @@
           "er": 25,
           "r": 25
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2016-ob:p77263",
@@ -5026,7 +5900,25 @@
           "er": 16,
           "r": 18
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2016-ob:p73226",
@@ -5057,7 +5949,21 @@
           "er": 25,
           "r": 26
         },
-        "armSlot": "sa_true"
+        "armSlot": "sa_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ff",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2016-ob:p63248",
@@ -5088,7 +5994,21 @@
           "er": 6,
           "r": 6
         },
-        "armSlot": "tq_high"
+        "armSlot": "tq_high",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2016-ob:p61214",
@@ -5119,7 +6039,25 @@
           "er": 37,
           "r": 37
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2016-ob:p78247",
@@ -5150,7 +6088,25 @@
           "er": 7,
           "r": 7
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2016-ob:p76329",
@@ -5181,7 +6137,25 @@
           "er": 31,
           "r": 36
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       }
     ],
     "createdAt": "2016-10-01T00:00:00.000Z"
@@ -5907,7 +6881,21 @@
           "er": 41,
           "r": 48
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2022-sk:p51863",
@@ -5938,7 +6926,21 @@
           "er": 55,
           "r": 63
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2022-sk:p50859",
@@ -5969,7 +6971,25 @@
           "er": 72,
           "r": 79
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2022-sk:p60768",
@@ -6000,7 +7020,25 @@
           "er": 45,
           "r": 50
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ft",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2022-sk:p52808",
@@ -6031,7 +7069,21 @@
           "er": 14,
           "r": 19
         },
-        "armSlot": "tq_low"
+        "armSlot": "tq_low",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2022-sk:p60841",
@@ -6062,7 +7114,25 @@
           "er": 32,
           "r": 34
         },
-        "armSlot": "un_sub"
+        "armSlot": "un_sub",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2022-sk:p62869",
@@ -6093,7 +7163,25 @@
           "er": 14,
           "r": 15
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "sp",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2022-sk:p65343",
@@ -6124,7 +7212,25 @@
           "er": 33,
           "r": 33
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "sp",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2022-sk:p73211",
@@ -6155,7 +7261,25 @@
           "er": 27,
           "r": 28
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2022-sk:p72523",
@@ -6186,7 +7310,25 @@
           "er": 16,
           "r": 18
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2022-sk:p51895",
@@ -6217,7 +7359,25 @@
           "er": 26,
           "r": 26
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ft",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2022-sk:p68856",
@@ -6248,7 +7408,25 @@
           "er": 30,
           "r": 37
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2022-sk:p61895",
@@ -6279,7 +7457,25 @@
           "er": 30,
           "r": 32
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       }
     ],
     "createdAt": "2022-10-01T00:00:00.000Z"
@@ -7000,7 +8196,21 @@
           "er": 53,
           "r": 68
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1992-lt:p86572",
@@ -7031,7 +8241,25 @@
           "er": 85,
           "r": 87
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1992-lt:p90532",
@@ -7062,7 +8290,25 @@
           "er": 45,
           "r": 46
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1992-lt:p92506",
@@ -7093,7 +8339,25 @@
           "er": 61,
           "r": 63
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ft",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1992-lt:p89520",
@@ -7124,7 +8388,25 @@
           "er": 18,
           "r": 18
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ft",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1992-lt:p92502",
@@ -7155,7 +8437,25 @@
           "er": 53,
           "r": 64
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ft",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1992-lt:p91153",
@@ -7186,7 +8486,25 @@
           "er": 66,
           "r": 74
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ft",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1992-lt:p87510",
@@ -7217,7 +8535,25 @@
           "er": 44,
           "r": 48
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ft",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1992-lt:p85531",
@@ -7248,7 +8584,21 @@
           "er": 15,
           "r": 17
         },
-        "armSlot": "un_true"
+        "armSlot": "un_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          }
+        ]
       }
     ],
     "createdAt": "1992-10-01T00:00:00.000Z"
@@ -7974,7 +9324,21 @@
           "er": 62,
           "r": 67
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2020-nc:p50912",
@@ -8005,7 +9369,25 @@
           "er": 82,
           "r": 87
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2020-nc:p65933",
@@ -8036,7 +9418,21 @@
           "er": 18,
           "r": 20
         },
-        "armSlot": "tq_high"
+        "armSlot": "tq_high",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2020-nc:p69962",
@@ -8067,7 +9463,25 @@
           "er": 36,
           "r": 37
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2020-nc:p75867",
@@ -8098,7 +9512,25 @@
           "er": 14,
           "r": 16
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "sp",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2020-nc:p78352",
@@ -8129,7 +9561,25 @@
           "er": 22,
           "r": 26
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "sp",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2020-nc:p65643",
@@ -8160,7 +9610,25 @@
           "er": 29,
           "r": 35
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2020-nc:p63959",
@@ -8191,7 +9659,25 @@
           "er": 21,
           "r": 23
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2020-nc:p63914",
@@ -8222,7 +9708,25 @@
           "er": 7,
           "r": 8
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ft",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2020-nc:p62655",
@@ -8253,7 +9757,25 @@
           "er": 3,
           "r": 4
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ft",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2020-nc:p60339",
@@ -8284,7 +9806,25 @@
           "er": 19,
           "r": 19
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "sp",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2020-nc:p68900",
@@ -8315,7 +9855,25 @@
           "er": 41,
           "r": 47
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2020-nc:p76118",
@@ -8346,7 +9904,21 @@
           "er": 27,
           "r": 30
         },
-        "armSlot": "sa_low"
+        "armSlot": "sa_low",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          }
+        ]
       }
     ],
     "createdAt": "2020-10-01T00:00:00.000Z"
@@ -8995,7 +10567,21 @@
           "er": 84,
           "r": 92
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1999-hh:p89770",
@@ -9026,7 +10612,21 @@
           "er": 83,
           "r": 99
         },
-        "armSlot": "oh_low"
+        "armSlot": "oh_low",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "fo",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1999-hh:p90853",
@@ -9057,7 +10657,25 @@
           "er": 82,
           "r": 86
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1999-hh:p88770",
@@ -9088,7 +10706,25 @@
           "er": 75,
           "r": 83
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ft",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1999-hh:p93219",
@@ -9119,7 +10755,25 @@
           "er": 51,
           "r": 57
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ft",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1999-hh:p94227",
@@ -9150,7 +10804,25 @@
           "er": 30,
           "r": 38
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1999-hh:p96720",
@@ -9181,7 +10853,25 @@
           "er": 36,
           "r": 37
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1999-hh:p86722",
@@ -9212,7 +10902,25 @@
           "er": 28,
           "r": 34
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1999-hh:p92802",
@@ -9243,7 +10951,25 @@
           "er": 31,
           "r": 33
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ft",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1999-hh:p93715",
@@ -9274,7 +11000,21 @@
           "er": 41,
           "r": 44
         },
-        "armSlot": "sa_true"
+        "armSlot": "sa_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          }
+        ]
       }
     ],
     "createdAt": "1999-10-01T00:00:00.000Z"
@@ -9997,7 +11737,21 @@
           "er": 73,
           "r": 81
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sp",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2014-wo:p62698",
@@ -10028,7 +11782,21 @@
           "er": 64,
           "r": 66
         },
-        "armSlot": "tq_high"
+        "armSlot": "tq_high",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2014-wo:p74359",
@@ -10059,7 +11827,25 @@
           "er": 53,
           "r": 59
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ft",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2014-wo:p62363",
@@ -10090,7 +11876,21 @@
           "er": 28,
           "r": 30
         },
-        "armSlot": "sa_true"
+        "armSlot": "sa_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2014-wo:p63342",
@@ -10121,7 +11921,21 @@
           "er": 19,
           "r": 21
         },
-        "armSlot": "tq_high"
+        "armSlot": "tq_high",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2014-wo:p72749",
@@ -10152,7 +11966,21 @@
           "er": 34,
           "r": 37
         },
-        "armSlot": "sa_low"
+        "armSlot": "sa_low",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2014-wo:p61365",
@@ -10183,7 +12011,21 @@
           "er": 45,
           "r": 48
         },
-        "armSlot": "un_true"
+        "armSlot": "un_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2014-wo:p60336",
@@ -10214,7 +12056,25 @@
           "er": 56,
           "r": 59
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ft",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2014-wo:p64350",
@@ -10245,7 +12105,25 @@
           "er": 50,
           "r": 52
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2014-wo:p75321",
@@ -10276,7 +12154,25 @@
           "er": 30,
           "r": 30
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       }
     ],
     "createdAt": "2014-10-01T00:00:00.000Z"
@@ -10966,7 +12862,21 @@
           "er": 63,
           "r": 72
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2019-wo:p67313",
@@ -10997,7 +12907,21 @@
           "er": 52,
           "r": 62
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2019-wo:p65320",
@@ -11028,7 +12952,25 @@
           "er": 59,
           "r": 68
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2019-wo:p67603",
@@ -11059,7 +13001,25 @@
           "er": 61,
           "r": 70
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2019-wo:p62363",
@@ -11090,7 +13050,21 @@
           "er": 22,
           "r": 26
         },
-        "armSlot": "sa_true"
+        "armSlot": "sa_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2019-wo:p76430",
@@ -11121,7 +13095,25 @@
           "er": 19,
           "r": 19
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2019-wo:p68341",
@@ -11152,7 +13144,21 @@
           "er": 51,
           "r": 56
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2019-wo:p67828",
@@ -11183,7 +13189,25 @@
           "er": 16,
           "r": 17
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2019-wo:p61456",
@@ -11214,7 +13238,25 @@
           "er": 20,
           "r": 23
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2019-wo:p61268",
@@ -11245,7 +13287,21 @@
           "er": 9,
           "r": 10
         },
-        "armSlot": "un_true"
+        "armSlot": "un_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2019-wo:p62360",
@@ -11276,7 +13332,25 @@
           "er": 35,
           "r": 36
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2019-wo:p64051",
@@ -11307,7 +13381,25 @@
           "er": 11,
           "r": 11
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2019-wo:p63342",
@@ -11338,7 +13430,21 @@
           "er": 14,
           "r": 15
         },
-        "armSlot": "tq_high"
+        "armSlot": "tq_high",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2019-wo:p74359",
@@ -11369,7 +13475,25 @@
           "er": 14,
           "r": 17
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "B"
+          }
+        ]
       }
     ],
     "createdAt": "2019-10-01T00:00:00.000Z"
@@ -12056,7 +14180,21 @@
           "er": 53,
           "r": 54
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2008-wo:p70329",
@@ -12087,7 +14225,25 @@
           "er": 67,
           "r": 77
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ft",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2008-wo:p98330",
@@ -12118,7 +14274,25 @@
           "er": 46,
           "r": 54
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ft",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2008-wo:p76329",
@@ -12149,7 +14323,25 @@
           "er": 61,
           "r": 64
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2008-wo:p99314",
@@ -12180,7 +14372,25 @@
           "er": 42,
           "r": 47
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2008-wo:p76357",
@@ -12211,7 +14421,21 @@
           "er": 22,
           "r": 29
         },
-        "armSlot": "un_true"
+        "armSlot": "un_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2008-wo:p70349",
@@ -12242,7 +14466,25 @@
           "er": 11,
           "r": 11
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2008-wo:p73343",
@@ -12273,7 +14515,25 @@
           "er": 13,
           "r": 16
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2008-wo:p94364",
@@ -12304,7 +14564,25 @@
           "er": 40,
           "r": 40
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2008-wo:p97423",
@@ -12335,7 +14613,25 @@
           "er": 47,
           "r": 50
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2008-wo:p78333",
@@ -12366,7 +14662,21 @@
           "er": 2,
           "r": 2
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "fo",
+            "grade": "B"
+          }
+        ]
       }
     ],
     "createdAt": "2008-10-01T00:00:00.000Z"
@@ -13054,7 +15364,25 @@
           "er": 79,
           "r": 84
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2009-wo:p98330",
@@ -13085,7 +15413,25 @@
           "er": 87,
           "r": 93
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ft",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2009-wo:p70329",
@@ -13116,7 +15462,25 @@
           "er": 75,
           "r": 76
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ft",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2009-wo:p76355",
@@ -13147,7 +15511,21 @@
           "er": 56,
           "r": 57
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2009-wo:p75342",
@@ -13178,7 +15556,25 @@
           "er": 42,
           "r": 50
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2009-wo:p99314",
@@ -13209,7 +15605,25 @@
           "er": 44,
           "r": 50
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2009-wo:p70323",
@@ -13240,7 +15654,25 @@
           "er": 34,
           "r": 36
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "sp",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2009-wo:p74359",
@@ -13271,7 +15703,25 @@
           "er": 18,
           "r": 18
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2009-wo:p79358",
@@ -13302,7 +15752,25 @@
           "er": 49,
           "r": 52
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2009-wo:p72321",
@@ -13333,7 +15801,25 @@
           "er": 15,
           "r": 17
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ft",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2009-wo:p78353",
@@ -13364,7 +15850,25 @@
           "er": 51,
           "r": 53
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2009-wo:p97423",
@@ -13395,7 +15899,25 @@
           "er": 36,
           "r": 37
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       }
     ],
     "createdAt": "2009-10-01T00:00:00.000Z"
@@ -14080,7 +16602,21 @@
           "er": 47,
           "r": 54
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1993-ht:p89620",
@@ -14111,7 +16647,21 @@
           "er": 52,
           "r": 60
         },
-        "armSlot": "un_true"
+        "armSlot": "un_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "fo",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1993-ht:p93626",
@@ -14142,7 +16692,25 @@
           "er": 43,
           "r": 48
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1993-ht:p86612",
@@ -14173,7 +16741,25 @@
           "er": 39,
           "r": 47
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1993-ht:p87672",
@@ -14204,7 +16790,25 @@
           "er": 40,
           "r": 46
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ft",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1993-ht:p84671",
@@ -14235,7 +16839,25 @@
           "er": 27,
           "r": 31
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1993-ht:p89672",
@@ -14266,7 +16888,25 @@
           "er": 19,
           "r": 23
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ft",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1993-ht:p86672",
@@ -14297,7 +16937,25 @@
           "er": 18,
           "r": 20
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1993-ht:p85672",
@@ -14328,7 +16986,21 @@
           "er": 11,
           "r": 11
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "fo",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "B"
+          }
+        ]
       }
     ],
     "createdAt": "1993-10-01T00:00:00.000Z"
@@ -14899,7 +17571,21 @@
           "er": 58,
           "r": 68
         },
-        "armSlot": "un_true"
+        "armSlot": "un_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1983-lg:p94490",
@@ -14930,7 +17616,25 @@
           "er": 45,
           "r": 57
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1983-lg:p83171",
@@ -14961,7 +17665,25 @@
           "er": 56,
           "r": 62
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1983-lg:p82175",
@@ -14992,7 +17714,25 @@
           "er": 37,
           "r": 45
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1983-lg:p82699",
@@ -15023,7 +17763,21 @@
           "er": 28,
           "r": 37
         },
-        "armSlot": "un_true"
+        "armSlot": "un_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1983-lg:p96471",
@@ -15054,7 +17808,25 @@
           "er": 24,
           "r": 30
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ft",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1983-lg:p83324",
@@ -15085,7 +17857,25 @@
           "er": 19,
           "r": 25
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "B"
+          }
+        ]
       }
     ],
     "createdAt": "1983-10-01T00:00:00.000Z"
@@ -15770,7 +18560,21 @@
           "er": 49,
           "r": 58
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1995-ob:p92202",
@@ -15801,7 +18605,25 @@
           "er": 53,
           "r": 65
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1995-ob:p95235",
@@ -15832,7 +18654,25 @@
           "er": 39,
           "r": 43
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1995-ob:p82234",
@@ -15863,7 +18703,25 @@
           "er": 47,
           "r": 54
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1995-ob:p83260",
@@ -15894,7 +18752,25 @@
           "er": 47,
           "r": 56
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ft",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1995-ob:p93245",
@@ -15925,7 +18801,25 @@
           "er": 22,
           "r": 26
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1995-ob:p91821",
@@ -15956,7 +18850,25 @@
           "er": 20,
           "r": 20
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ft",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1995-ob:p89271",
@@ -15987,7 +18899,25 @@
           "er": 15,
           "r": 16
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1995-ob:p93219",
@@ -16018,7 +18948,25 @@
           "er": 24,
           "r": 27
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       }
     ],
     "createdAt": "1995-10-01T00:00:00.000Z"
@@ -16632,7 +19580,21 @@
           "er": 43,
           "r": 50
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2008-sk:p71845",
@@ -16663,7 +19625,21 @@
           "er": 41,
           "r": 43
         },
-        "armSlot": "tq_high"
+        "armSlot": "tq_high",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2008-sk:p77860",
@@ -16694,7 +19670,21 @@
           "er": 49,
           "r": 55
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2008-sk:p73801",
@@ -16725,7 +19715,25 @@
           "er": 48,
           "r": 56
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2008-sk:p91848",
@@ -16756,7 +19764,25 @@
           "er": 26,
           "r": 28
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ft",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2008-sk:p74857",
@@ -16787,7 +19813,21 @@
           "er": 18,
           "r": 24
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2008-sk:p72862",
@@ -16818,7 +19858,25 @@
           "er": 16,
           "r": 17
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2008-sk:p92501",
@@ -16849,7 +19907,21 @@
           "er": 20,
           "r": 24
         },
-        "armSlot": "sa_true"
+        "armSlot": "sa_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2008-sk:p90350",
@@ -16880,7 +19952,21 @@
           "er": 14,
           "r": 19
         },
-        "armSlot": "sa_true"
+        "armSlot": "sa_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2008-sk:p70820",
@@ -16911,7 +19997,25 @@
           "er": 14,
           "r": 15
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2008-sk:p73825",
@@ -16942,7 +20046,21 @@
           "er": 18,
           "r": 21
         },
-        "armSlot": "sa_true"
+        "armSlot": "sa_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2008-sk:p71801",
@@ -16973,7 +20091,21 @@
           "er": 18,
           "r": 18
         },
-        "armSlot": "un_sub"
+        "armSlot": "un_sub",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ft",
+            "grade": "B"
+          }
+        ]
       }
     ],
     "createdAt": "2008-10-01T00:00:00.000Z"
@@ -17658,7 +20790,21 @@
           "er": 54,
           "r": 61
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1992-hh:p88770",
@@ -17689,7 +20835,25 @@
           "er": 62,
           "r": 69
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1992-hh:p88750",
@@ -17720,7 +20884,25 @@
           "er": 53,
           "r": 64
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ft",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1992-hh:p86722",
@@ -17751,7 +20933,25 @@
           "er": 41,
           "r": 46
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ft",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1992-hh:p88711",
@@ -17782,7 +20982,25 @@
           "er": 43,
           "r": 47
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ft",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1992-hh:p91729",
@@ -17813,7 +21031,25 @@
           "er": 37,
           "r": 40
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ft",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1992-hh:p86770",
@@ -17844,7 +21080,21 @@
           "er": 41,
           "r": 48
         },
-        "armSlot": "un_true"
+        "armSlot": "un_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1992-hh:p92701",
@@ -17875,7 +21125,25 @@
           "er": 19,
           "r": 20
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ft",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1992-hh:p89770",
@@ -17906,7 +21174,21 @@
           "er": 69,
           "r": 79
         },
-        "armSlot": "oh_low"
+        "armSlot": "oh_low",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "fo",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       }
     ],
     "createdAt": "1992-10-01T00:00:00.000Z"
@@ -18477,7 +21759,25 @@
           "er": 112,
           "r": 138
         },
-        "armSlot": "tq_low"
+        "armSlot": "tq_low",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1983-hd:p83371",
@@ -18508,7 +21808,25 @@
           "er": 79,
           "r": 94
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ft",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1983-hd:p80204",
@@ -18539,7 +21857,25 @@
           "er": 20,
           "r": 27
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ft",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1983-hd:p82303",
@@ -18570,7 +21906,25 @@
           "er": 18,
           "r": 24
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1983-hd:p82954",
@@ -18601,7 +21955,25 @@
           "er": 18,
           "r": 22
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ft",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1983-hd:p82966",
@@ -18632,7 +22004,25 @@
           "er": 22,
           "r": 24
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ft",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1983-hd:p83992",
@@ -18663,7 +22053,25 @@
           "er": 20,
           "r": 21
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ft",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       }
     ],
     "createdAt": "1983-10-01T00:00:00.000Z"
@@ -19274,7 +22682,21 @@
           "er": 83,
           "r": 93
         },
-        "armSlot": "un_true"
+        "armSlot": "un_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1986-hd:p95488",
@@ -19305,7 +22727,25 @@
           "er": 65,
           "r": 79
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ft",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1986-hd:p85350",
@@ -19336,7 +22776,25 @@
           "er": 53,
           "r": 70
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ft",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1986-hd:p84111",
@@ -19367,7 +22825,25 @@
           "er": 16,
           "r": 18
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1986-hd:p86370",
@@ -19398,7 +22874,25 @@
           "er": 49,
           "r": 53
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1986-hd:p80204",
@@ -19429,7 +22923,25 @@
           "er": 33,
           "r": 40
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ft",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1986-hd:p83272",
@@ -19460,7 +22972,25 @@
           "er": 10,
           "r": 18
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ft",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1986-hd:p82702",
@@ -19491,7 +23021,25 @@
           "er": 13,
           "r": 15
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1986-hd:p86303",
@@ -19522,7 +23070,21 @@
           "er": 62,
           "r": 73
         },
-        "armSlot": "un_high"
+        "armSlot": "un_high",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       }
     ],
     "createdAt": "1986-10-01T00:00:00.000Z"
@@ -20131,7 +23693,21 @@
           "er": 58,
           "r": 64
         },
-        "armSlot": "un_sub"
+        "armSlot": "un_sub",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1989-hd:p87340",
@@ -20162,7 +23738,21 @@
           "er": 55,
           "r": 65
         },
-        "armSlot": "sa_high"
+        "armSlot": "sa_high",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1989-hd:p85570",
@@ -20193,7 +23783,25 @@
           "er": 59,
           "r": 60
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ft",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1989-hd:p89351",
@@ -20224,7 +23832,21 @@
           "er": 38,
           "r": 60
         },
-        "armSlot": "sa_true"
+        "armSlot": "sa_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1989-hd:p86310",
@@ -20255,7 +23877,21 @@
           "er": 46,
           "r": 60
         },
-        "armSlot": "un_true"
+        "armSlot": "un_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1989-hd:p89330",
@@ -20286,7 +23922,25 @@
           "er": 22,
           "r": 22
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ft",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1989-hd:p88371",
@@ -20317,7 +23971,25 @@
           "er": 19,
           "r": 21
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ft",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1989-hd:p86370",
@@ -20348,7 +24020,25 @@
           "er": 15,
           "r": 18
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "B"
+          }
+        ]
       }
     ],
     "createdAt": "1989-10-01T00:00:00.000Z"
@@ -20997,7 +24687,21 @@
           "er": 80,
           "r": 85
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2000-hd:p97133",
@@ -21028,7 +24732,25 @@
           "er": 73,
           "r": 75
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2000-hd:p98330",
@@ -21059,7 +24781,25 @@
           "er": 81,
           "r": 87
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2000-hd:p89351",
@@ -21090,7 +24830,21 @@
           "er": 27,
           "r": 35
         },
-        "armSlot": "sa_true"
+        "armSlot": "sa_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2000-hd:p90350",
@@ -21121,7 +24875,21 @@
           "er": 32,
           "r": 34
         },
-        "armSlot": "sa_true"
+        "armSlot": "sa_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2000-hd:p70323",
@@ -21152,7 +24920,25 @@
           "er": 36,
           "r": 39
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "sp",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2000-hd:p70329",
@@ -21183,7 +24969,25 @@
           "er": 35,
           "r": 39
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2000-hd:p91818",
@@ -21214,7 +25018,25 @@
           "er": 1,
           "r": 1
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2000-hd:p94364",
@@ -21245,7 +25067,25 @@
           "er": 19,
           "r": 21
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2000-hd:p95318",
@@ -21276,7 +25116,17 @@
           "er": 17,
           "r": 18
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          }
+        ]
       }
     ],
     "createdAt": "2000-10-01T00:00:00.000Z"
@@ -21963,7 +25813,21 @@
           "er": 39,
           "r": 43
         },
-        "armSlot": "un_high"
+        "armSlot": "un_high",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1996-sb:p92403",
@@ -21994,7 +25858,25 @@
           "er": 46,
           "r": 55
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1996-sb:p91848",
@@ -22025,7 +25907,25 @@
           "er": 58,
           "r": 71
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ft",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1996-sb:p91831",
@@ -22056,7 +25956,25 @@
           "er": 40,
           "r": 44
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1996-sb:p91833",
@@ -22087,7 +26005,25 @@
           "er": 30,
           "r": 34
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1996-sb:p93453",
@@ -22118,7 +26054,21 @@
           "er": 29,
           "r": 31
         },
-        "armSlot": "un_true"
+        "armSlot": "un_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1996-sb:p96824",
@@ -22149,7 +26099,25 @@
           "er": 8,
           "r": 9
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1996-sb:p96847",
@@ -22180,7 +26148,25 @@
           "er": 37,
           "r": 39
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1996-sb:p91899",
@@ -22211,7 +26197,25 @@
           "er": 23,
           "r": 24
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1996-sb:p94834",
@@ -22242,7 +26246,25 @@
           "er": 27,
           "r": 29
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ft",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "si",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-1996-sb:p91818",
@@ -22273,7 +26295,25 @@
           "er": 12,
           "r": 12
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "B"
+          }
+        ]
       }
     ],
     "createdAt": "1996-10-01T00:00:00.000Z"
@@ -22885,7 +26925,25 @@
           "er": 2,
           "r": 2
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          },
+          {
+            "code": "sl",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2008-kor:po08-김광현",
@@ -22916,7 +26974,21 @@
           "er": 2,
           "r": 3
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2008-kor:po08-봉중근",
@@ -22947,7 +27019,21 @@
           "er": 8,
           "r": 9
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2008-kor:po08-송승준",
@@ -22978,7 +27064,21 @@
           "er": 3,
           "r": 3
         },
-        "armSlot": "tq_high"
+        "armSlot": "tq_high",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2008-kor:po08-장원삼",
@@ -23009,7 +27109,21 @@
           "er": 0,
           "r": 0
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2008-kor:po08-윤석민",
@@ -23040,7 +27154,21 @@
           "er": 2,
           "r": 2
         },
-        "armSlot": "tq_high"
+        "armSlot": "tq_high",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2008-kor:po08-한기주",
@@ -23071,7 +27199,17 @@
           "er": 5,
           "r": 6
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          }
+        ]
       },
       {
         "id": "canon-2008-kor:po08-권혁",
@@ -23102,7 +27240,21 @@
           "er": 0,
           "r": 0
         },
-        "armSlot": "tq_true"
+        "armSlot": "tq_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2008-kor:po08-오승환",
@@ -23133,7 +27285,21 @@
           "er": 0,
           "r": 0
         },
-        "armSlot": "oh_true"
+        "armSlot": "oh_true",
+        "arsenal": [
+          {
+            "code": "ff",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
+            "grade": "B"
+          }
+        ]
       },
       {
         "id": "canon-2008-kor:po08-정대현",
@@ -23164,7 +27330,21 @@
           "er": 1,
           "r": 1
         },
-        "armSlot": "un_sub"
+        "armSlot": "un_sub",
+        "arsenal": [
+          {
+            "code": "si",
+            "grade": "A"
+          },
+          {
+            "code": "sl",
+            "grade": "A"
+          },
+          {
+            "code": "ft",
+            "grade": "B"
+          }
+        ]
       }
     ],
     "createdAt": "2008-08-23T00:00:00.000Z"

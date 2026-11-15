@@ -244,6 +244,12 @@ export function blankPitcher(name = ""): Player {
     throws: "R",
     positions: ["P"],
     armSlot: "tq_true",
+    arsenal: [
+      { code: "ff", grade: "A" },
+      { code: "sl", grade: "B" },
+      { code: "ch", grade: "C" },
+      { code: "cb", grade: "C" },
+    ],
     pitcher: {
       g: 0,
       w: 0,

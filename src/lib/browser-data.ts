@@ -5,6 +5,7 @@ import { ACHIEVEMENT_CATALOG, type AchievementKey } from "@/lib/achievement-cata
 import { defaultArmSlot, KNOWN_ARM_SLOTS } from "@/lib/arm-slot";
 import { idbDelete, idbGet, idbGetAll, idbPut } from "@/lib/browser-db";
 import { rememberDeletedGameId, removeDeletedGameId } from "@/lib/deleted-games";
+import { normalizeArsenal } from "@/lib/pitch-catalog";
 import { newId, rosterIssues } from "@/lib/stats";
 import type { GameRecord, Player, SeriesFormat, SeriesRecord, Team, VenueMode } from "@/lib/types";
 
@@ -50,6 +51,8 @@ function mergePlayers(canon: Player[], override: Player[] | undefined): Player[]
     const throws = local.throws || player.throws;
     // Documented deliveries win over stale IndexedDB copies of public-club pitchers.
     const known = player.kind === "P" ? KNOWN_ARM_SLOTS[name] : undefined;
+    const localArsenal = player.kind === "P" ? normalizeArsenal(local.arsenal) : [];
+    const canonArsenal = player.kind === "P" ? normalizeArsenal(player.arsenal) : [];
     return {
       ...player,
       ...local,
@@ -58,6 +61,8 @@ function mergePlayers(canon: Player[], override: Player[] | undefined): Player[]
         local.armSlot ??
         player.armSlot ??
         (player.kind === "P" ? defaultArmSlot(name, throws) : undefined),
+      // Keep a user's custom arsenal; otherwise refresh from the bundled public roster.
+      arsenal: player.kind === "P" ? (localArsenal.length ? localArsenal : canonArsenal.length ? canonArsenal : undefined) : undefined,
       batter: local.batter ?? player.batter,
       pitcher: local.pitcher ?? player.pitcher,
       positions: local.positions?.length ? local.positions : player.positions,
