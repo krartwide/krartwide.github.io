@@ -1082,16 +1082,16 @@
         "armSlot": "oh_true",
         "arsenal": [
           {
+            "code": "fo",
+            "grade": "S"
+          },
+          {
             "code": "ff",
             "grade": "A"
           },
           {
             "code": "sl",
-            "grade": "A"
-          },
-          {
-            "code": "ch",
-            "grade": "B"
+            "grade": "D"
           }
         ]
       },
@@ -1182,6 +1182,10 @@
           {
             "code": "sl",
             "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "C"
           }
         ]
       },
@@ -3379,6 +3383,10 @@
           {
             "code": "cb",
             "grade": "B"
+          },
+          {
+            "code": "sl",
+            "grade": "C"
           }
         ]
       },
@@ -3745,7 +3753,7 @@
         "armSlot": "sa_true",
         "arsenal": [
           {
-            "code": "ff",
+            "code": "si",
             "grade": "A"
           },
           {
@@ -3753,8 +3761,12 @@
             "grade": "A"
           },
           {
-            "code": "ch",
+            "code": "ff",
             "grade": "B"
+          },
+          {
+            "code": "ch",
+            "grade": "C"
           }
         ]
       },
@@ -4597,11 +4609,11 @@
           },
           {
             "code": "cb",
-            "grade": "A"
+            "grade": "B"
           },
           {
             "code": "ch",
-            "grade": "B"
+            "grade": "C"
           }
         ]
       },
@@ -4727,16 +4739,20 @@
         "armSlot": "oh_true",
         "arsenal": [
           {
+            "code": "sp",
+            "grade": "S"
+          },
+          {
             "code": "ff",
             "grade": "A"
           },
           {
             "code": "sl",
-            "grade": "A"
+            "grade": "B"
           },
           {
-            "code": "ch",
-            "grade": "B"
+            "code": "cb",
+            "grade": "C"
           }
         ]
       },
@@ -5671,6 +5687,10 @@
           },
           {
             "code": "ch",
+            "grade": "A"
+          },
+          {
+            "code": "cb",
             "grade": "B"
           }
         ]
@@ -6095,8 +6115,12 @@
             "grade": "A"
           },
           {
-            "code": "ch",
+            "code": "fo",
             "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "C"
           }
         ]
       },
@@ -8203,16 +8227,16 @@
         "armSlot": "oh_true",
         "arsenal": [
           {
+            "code": "sl",
+            "grade": "SS"
+          },
+          {
             "code": "ff",
             "grade": "A"
           },
           {
-            "code": "sl",
-            "grade": "S"
-          },
-          {
             "code": "cb",
-            "grade": "A"
+            "grade": "B"
           }
         ]
       },
@@ -8577,6 +8601,10 @@
           {
             "code": "ch",
             "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "C"
           }
         ]
       }
@@ -9370,6 +9398,10 @@
           {
             "code": "ch",
             "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "C"
           }
         ]
       },
@@ -10632,16 +10664,16 @@
         "armSlot": "oh_true",
         "arsenal": [
           {
+            "code": "fo",
+            "grade": "SS"
+          },
+          {
             "code": "ff",
             "grade": "A"
           },
           {
             "code": "sl",
             "grade": "A"
-          },
-          {
-            "code": "ch",
-            "grade": "B"
           }
         ]
       },
@@ -10686,7 +10718,7 @@
           },
           {
             "code": "cb",
-            "grade": "B"
+            "grade": "A"
           },
           {
             "code": "ch",
@@ -10865,8 +10897,8 @@
         "armSlot": "oh_true",
         "arsenal": [
           {
-            "code": "si",
-            "grade": "S"
+            "code": "ff",
+            "grade": "A"
           },
           {
             "code": "sl",
@@ -11750,7 +11782,7 @@
         "arsenal": [
           {
             "code": "ff",
-            "grade": "A"
+            "grade": "S"
           },
           {
             "code": "sl",
@@ -11996,6 +12028,10 @@
           {
             "code": "ch",
             "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "C"
           }
         ]
       },
@@ -12896,6 +12932,10 @@
           {
             "code": "ch",
             "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "C"
           }
         ]
       },
@@ -13276,6 +13316,10 @@
           {
             "code": "ch",
             "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "C"
           }
         ]
       },
@@ -14250,18 +14294,14 @@
         "arsenal": [
           {
             "code": "ff",
-            "grade": "A"
+            "grade": "S"
           },
           {
             "code": "sl",
-            "grade": "A"
+            "grade": "S"
           },
           {
             "code": "ch",
-            "grade": "B"
-          },
-          {
-            "code": "cb",
             "grade": "C"
           }
         ]
@@ -14398,6 +14438,10 @@
           {
             "code": "ch",
             "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "C"
           }
         ]
       },
@@ -15361,18 +15405,14 @@
         "arsenal": [
           {
             "code": "ff",
-            "grade": "A"
+            "grade": "S"
           },
           {
             "code": "sl",
-            "grade": "A"
+            "grade": "S"
           },
           {
             "code": "ch",
-            "grade": "B"
-          },
-          {
-            "code": "cb",
             "grade": "C"
           }
         ]
@@ -16525,7 +16565,11 @@
         "armSlot": "oh_true",
         "arsenal": [
           {
-            "code": "ff",
+            "code": "si",
+            "grade": "S"
+          },
+          {
+            "code": "ft",
             "grade": "A"
           },
           {
@@ -16533,8 +16577,20 @@
             "grade": "A"
           },
           {
-            "code": "cb",
+            "code": "fo",
             "grade": "A"
+          },
+          {
+            "code": "sp",
+            "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "C"
           }
         ]
       },
@@ -16623,11 +16679,11 @@
             "grade": "A"
           },
           {
-            "code": "sl",
-            "grade": "A"
+            "code": "cb",
+            "grade": "S"
           },
           {
-            "code": "cb",
+            "code": "sl",
             "grade": "B"
           },
           {
@@ -17496,6 +17552,10 @@
           {
             "code": "cb",
             "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "C"
           }
         ]
       },
@@ -17676,6 +17736,10 @@
           {
             "code": "cb",
             "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "C"
           }
         ]
       },
@@ -18465,6 +18529,10 @@
           {
             "code": "cb",
             "grade": "A"
+          },
+          {
+            "code": "ch",
+            "grade": "C"
           }
         ]
       },
@@ -18639,8 +18707,12 @@
         "armSlot": "oh_true",
         "arsenal": [
           {
+            "code": "si",
+            "grade": "S"
+          },
+          {
             "code": "ff",
-            "grade": "A"
+            "grade": "B"
           },
           {
             "code": "sl",
@@ -18648,6 +18720,14 @@
           },
           {
             "code": "cb",
+            "grade": "B"
+          },
+          {
+            "code": "ch",
+            "grade": "C"
+          },
+          {
+            "code": "ft",
             "grade": "B"
           }
         ]
@@ -19778,7 +19858,7 @@
         "armSlot": "sa_true",
         "arsenal": [
           {
-            "code": "ff",
+            "code": "si",
             "grade": "A"
           },
           {
@@ -19788,6 +19868,10 @@
           {
             "code": "ch",
             "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "C"
           }
         ]
       },
@@ -19921,7 +20005,7 @@
         "armSlot": "sa_true",
         "arsenal": [
           {
-            "code": "ff",
+            "code": "si",
             "grade": "A"
           },
           {
@@ -19929,7 +20013,7 @@
             "grade": "A"
           },
           {
-            "code": "si",
+            "code": "ff",
             "grade": "B"
           }
         ]
@@ -20731,7 +20815,7 @@
           },
           {
             "code": "cb",
-            "grade": "B"
+            "grade": "A"
           },
           {
             "code": "ch",
@@ -20816,8 +20900,8 @@
         "armSlot": "oh_true",
         "arsenal": [
           {
-            "code": "si",
-            "grade": "S"
+            "code": "ff",
+            "grade": "A"
           },
           {
             "code": "sl",
@@ -21643,7 +21727,7 @@
         "arsenal": [
           {
             "code": "si",
-            "grade": "A"
+            "grade": "S"
           },
           {
             "code": "cb",
@@ -22555,6 +22639,10 @@
           {
             "code": "cb",
             "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "C"
           }
         ]
       },
@@ -23581,7 +23669,7 @@
         "armSlot": "sa_high",
         "arsenal": [
           {
-            "code": "ff",
+            "code": "si",
             "grade": "A"
           },
           {
@@ -23589,8 +23677,12 @@
             "grade": "A"
           },
           {
-            "code": "ch",
+            "code": "ff",
             "grade": "B"
+          },
+          {
+            "code": "ch",
+            "grade": "C"
           }
         ]
       },
@@ -23675,16 +23767,20 @@
         "armSlot": "sa_true",
         "arsenal": [
           {
-            "code": "ff",
-            "grade": "A"
+            "code": "si",
+            "grade": "S"
           },
           {
             "code": "sl",
             "grade": "A"
           },
           {
-            "code": "si",
+            "code": "ff",
             "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "C"
           }
         ]
       },
@@ -23730,6 +23826,10 @@
           {
             "code": "cb",
             "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "C"
           }
         ]
       },
@@ -24575,12 +24675,16 @@
             "grade": "A"
           },
           {
-            "code": "sl",
-            "grade": "A"
+            "code": "ch",
+            "grade": "S"
           },
           {
-            "code": "ch",
+            "code": "sl",
             "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "C"
           }
         ]
       },
@@ -24617,18 +24721,14 @@
         "arsenal": [
           {
             "code": "ff",
-            "grade": "A"
+            "grade": "S"
           },
           {
             "code": "sl",
-            "grade": "A"
+            "grade": "S"
           },
           {
             "code": "ch",
-            "grade": "B"
-          },
-          {
-            "code": "cb",
             "grade": "C"
           }
         ]
@@ -24665,16 +24765,20 @@
         "armSlot": "sa_true",
         "arsenal": [
           {
-            "code": "ff",
-            "grade": "A"
+            "code": "si",
+            "grade": "S"
           },
           {
             "code": "sl",
             "grade": "A"
           },
           {
-            "code": "si",
+            "code": "ff",
             "grade": "B"
+          },
+          {
+            "code": "cb",
+            "grade": "C"
           }
         ]
       },
@@ -25648,7 +25752,7 @@
         "armSlot": "un_high",
         "arsenal": [
           {
-            "code": "ff",
+            "code": "si",
             "grade": "A"
           },
           {
@@ -25656,8 +25760,12 @@
             "grade": "A"
           },
           {
-            "code": "ch",
+            "code": "cb",
             "grade": "B"
+          },
+          {
+            "code": "ff",
+            "grade": "C"
           }
         ]
       },
@@ -26995,6 +27103,14 @@
           {
             "code": "ch",
             "grade": "B"
+          },
+          {
+            "code": "fo",
+            "grade": "B"
+          },
+          {
+            "code": "ct",
+            "grade": "C"
           }
         ]
       },
@@ -27031,7 +27147,7 @@
         "arsenal": [
           {
             "code": "ff",
-            "grade": "S"
+            "grade": "SS"
           },
           {
             "code": "sl",
