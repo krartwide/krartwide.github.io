@@ -21,6 +21,10 @@
       "grade": "C"
     },
     {
+      "code": "ct",
+      "grade": "C"
+    },
+    {
       "code": "sl",
       "grade": "D"
     }
@@ -54,7 +58,7 @@
     },
     {
       "code": "fo",
-      "grade": "A"
+      "grade": "S"
     },
     {
       "code": "cb",
@@ -72,7 +76,7 @@
     },
     {
       "code": "ch",
-      "grade": "A"
+      "grade": "S"
     },
     {
       "code": "cb",
@@ -120,10 +124,6 @@
     },
     {
       "code": "ft",
-      "grade": "B"
-    },
-    {
-      "code": "sl",
       "grade": "C"
     }
   ],
@@ -142,7 +142,7 @@
     },
     {
       "code": "ft",
-      "grade": "C"
+      "grade": "D"
     }
   ],
   "한현희": [
@@ -160,7 +160,7 @@
     },
     {
       "code": "ft",
-      "grade": "C"
+      "grade": "D"
     }
   ],
   "엄상백": [
@@ -169,19 +169,19 @@
       "grade": "A"
     },
     {
+      "code": "ct",
+      "grade": "A"
+    },
+    {
       "code": "ch",
       "grade": "A"
     },
     {
-      "code": "ct",
+      "code": "cb",
       "grade": "B"
     },
     {
       "code": "sl",
-      "grade": "B"
-    },
-    {
-      "code": "cb",
       "grade": "C"
     }
   ],
@@ -196,7 +196,7 @@
     },
     {
       "code": "fo",
-      "grade": "B"
+      "grade": "A"
     },
     {
       "code": "ft",
@@ -215,10 +215,6 @@
     {
       "code": "fo",
       "grade": "B"
-    },
-    {
-      "code": "ft",
-      "grade": "D"
     }
   ],
   "이태양": [
@@ -246,7 +242,7 @@
     },
     {
       "code": "sl",
-      "grade": "S"
+      "grade": "SS"
     },
     {
       "code": "ft",
@@ -271,15 +267,15 @@
       "grade": "S"
     },
     {
-      "code": "cb",
+      "code": "sp",
       "grade": "B"
     },
     {
-      "code": "ch",
+      "code": "cb",
       "grade": "C"
     },
     {
-      "code": "sp",
+      "code": "ch",
       "grade": "C"
     }
   ],
@@ -297,12 +293,8 @@
       "grade": "A"
     },
     {
-      "code": "ft",
-      "grade": "B"
-    },
-    {
       "code": "cb",
-      "grade": "C"
+      "grade": "A"
     }
   ],
   "임창용": [
@@ -319,11 +311,11 @@
       "grade": "A"
     },
     {
-      "code": "cb",
+      "code": "si",
       "grade": "B"
     },
     {
-      "code": "si",
+      "code": "cb",
       "grade": "B"
     }
   ],
@@ -333,29 +325,29 @@
       "grade": "SS"
     },
     {
-      "code": "sl",
-      "grade": "A"
-    },
-    {
       "code": "cb",
-      "grade": "A"
+      "grade": "S"
     },
     {
       "code": "ft",
-      "grade": "B"
+      "grade": "A"
+    },
+    {
+      "code": "ff",
+      "grade": "C"
     }
   ],
   "박종훈": [
     {
-      "code": "si",
+      "code": "ft",
       "grade": "S"
     },
     {
-      "code": "sl",
-      "grade": "A"
+      "code": "cb",
+      "grade": "S"
     },
     {
-      "code": "cb",
+      "code": "si",
       "grade": "A"
     },
     {
@@ -365,27 +357,27 @@
     {
       "code": "ff",
       "grade": "C"
+    },
+    {
+      "code": "sl",
+      "grade": "C"
     }
   ],
   "이강철": [
     {
-      "code": "si",
-      "grade": "S"
+      "code": "ff",
+      "grade": "A"
     },
     {
       "code": "sl",
-      "grade": "S"
-    },
-    {
-      "code": "ff",
-      "grade": "A"
+      "grade": "SS"
     },
     {
       "code": "cb",
       "grade": "A"
     },
     {
-      "code": "fo",
+      "code": "si",
       "grade": "B"
     }
   ],
@@ -428,18 +420,18 @@
   "유희관": [
     {
       "code": "si",
-      "grade": "S"
+      "grade": "SS"
     },
     {
-      "code": "ch",
-      "grade": "A"
+      "code": "ff",
+      "grade": "B"
     },
     {
       "code": "cb",
       "grade": "A"
     },
     {
-      "code": "ff",
+      "code": "sl",
       "grade": "C"
     }
   ],
@@ -449,15 +441,19 @@
       "grade": "A"
     },
     {
-      "code": "fo",
+      "code": "ch",
       "grade": "S"
     },
     {
-      "code": "cb",
+      "code": "sl",
       "grade": "A"
     },
     {
-      "code": "sl",
+      "code": "cb",
+      "grade": "B"
+    },
+    {
+      "code": "fo",
       "grade": "B"
     }
   ],
@@ -476,25 +472,33 @@
     },
     {
       "code": "ch",
+      "grade": "B"
+    },
+    {
+      "code": "fo",
       "grade": "C"
     }
   ],
   "정민태": [
     {
       "code": "ff",
-      "grade": "A"
+      "grade": "S"
     },
     {
       "code": "sl",
       "grade": "A"
     },
     {
-      "code": "cb",
-      "grade": "B"
+      "code": "ch",
+      "grade": "A"
     },
     {
-      "code": "ch",
-      "grade": "C"
+      "code": "fo",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "B"
     }
   ],
   "조계현": [
@@ -508,7 +512,7 @@
     },
     {
       "code": "cb",
-      "grade": "B"
+      "grade": "A"
     }
   ],
   "염종석": [
@@ -518,11 +522,11 @@
     },
     {
       "code": "sl",
-      "grade": "A"
+      "grade": "S"
     },
     {
       "code": "cb",
-      "grade": "B"
+      "grade": "A"
     }
   ],
   "한기주": [
@@ -545,11 +549,11 @@
       "grade": "A"
     },
     {
-      "code": "sl",
-      "grade": "A"
+      "code": "fo",
+      "grade": "S"
     },
     {
-      "code": "cb",
+      "code": "sl",
       "grade": "B"
     }
   ],
@@ -802,7 +806,15 @@
     },
     {
       "code": "ch",
-      "grade": "A"
+      "grade": "S"
+    },
+    {
+      "code": "cb",
+      "grade": "B"
+    },
+    {
+      "code": "fo",
+      "grade": "C"
     }
   ],
   "가득염": [
@@ -844,7 +856,7 @@
     },
     {
       "code": "sp",
-      "grade": "B"
+      "grade": "A"
     }
   ],
   "김성배": [
@@ -910,7 +922,7 @@
   "헥터": [
     {
       "code": "ff",
-      "grade": "S"
+      "grade": "A"
     },
     {
       "code": "sl",
@@ -918,7 +930,7 @@
     },
     {
       "code": "ch",
-      "grade": "B"
+      "grade": "A"
     }
   ],
   "밴덴헐크": [
@@ -1006,7 +1018,7 @@
     },
     {
       "code": "sl",
-      "grade": "A"
+      "grade": "B"
     }
   ],
   "요키시": [
@@ -1070,7 +1082,7 @@
     },
     {
       "code": "ch",
-      "grade": "A"
+      "grade": "S"
     },
     {
       "code": "sl",
@@ -1191,6 +1203,10 @@
     {
       "code": "sl",
       "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "B"
     }
   ],
   "윤석민": [
@@ -1200,7 +1216,7 @@
     },
     {
       "code": "sl",
-      "grade": "A"
+      "grade": "S"
     },
     {
       "code": "ch",
@@ -1213,11 +1229,15 @@
       "grade": "A"
     },
     {
-      "code": "sl",
-      "grade": "A"
+      "code": "cb",
+      "grade": "S"
     },
     {
       "code": "ch",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
       "grade": "B"
     }
   ],
@@ -1225,6 +1245,10 @@
     {
       "code": "ff",
       "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "S"
     },
     {
       "code": "ch",
@@ -1255,12 +1279,12 @@
       "grade": "A"
     },
     {
-      "code": "sl",
-      "grade": "A"
+      "code": "ch",
+      "grade": "S"
     },
     {
-      "code": "ch",
-      "grade": "B"
+      "code": "sl",
+      "grade": "C"
     }
   ],
   "송승준": [
@@ -1269,11 +1293,15 @@
       "grade": "A"
     },
     {
-      "code": "sl",
+      "code": "fo",
+      "grade": "S"
+    },
+    {
+      "code": "cb",
       "grade": "A"
     },
     {
-      "code": "ch",
+      "code": "sl",
       "grade": "B"
     }
   ],
@@ -1288,17 +1316,17 @@
     },
     {
       "code": "cb",
-      "grade": "B"
+      "grade": "A"
     }
   ],
   "안지만": [
     {
       "code": "ff",
-      "grade": "A"
+      "grade": "S"
     },
     {
       "code": "sl",
-      "grade": "A"
+      "grade": "S"
     },
     {
       "code": "ch",
@@ -1312,11 +1340,15 @@
     },
     {
       "code": "sl",
-      "grade": "A"
+      "grade": "S"
     },
     {
       "code": "ch",
       "grade": "B"
+    },
+    {
+      "code": "cb",
+      "grade": "C"
     }
   ],
   "함덕주": [
@@ -1325,12 +1357,16 @@
       "grade": "A"
     },
     {
-      "code": "sl",
-      "grade": "A"
+      "code": "ch",
+      "grade": "S"
     },
     {
-      "code": "ch",
+      "code": "sl",
       "grade": "B"
+    },
+    {
+      "code": "cb",
+      "grade": "D"
     }
   ],
   "배제성": [
@@ -1340,14 +1376,14 @@
     },
     {
       "code": "sl",
-      "grade": "A"
+      "grade": "S"
     },
     {
-      "code": "si",
+      "code": "fo",
       "grade": "B"
     },
     {
-      "code": "ch",
+      "code": "cb",
       "grade": "C"
     }
   ],
@@ -1357,30 +1393,38 @@
       "grade": "A"
     },
     {
-      "code": "sl",
+      "code": "ct",
       "grade": "A"
     },
     {
-      "code": "ch",
+      "code": "sl",
       "grade": "B"
+    },
+    {
+      "code": "fo",
+      "grade": "C"
     }
   ],
   "하영민": [
     {
       "code": "ff",
-      "grade": "A"
+      "grade": "B"
     },
     {
       "code": "fo",
+      "grade": "S"
+    },
+    {
+      "code": "sw",
       "grade": "A"
     },
     {
       "code": "ct",
-      "grade": "B"
+      "grade": "A"
     },
     {
-      "code": "sw",
-      "grade": "B"
+      "code": "cb",
+      "grade": "C"
     }
   ],
   "임창민": [
@@ -1393,8 +1437,8 @@
       "grade": "A"
     },
     {
-      "code": "ch",
-      "grade": "B"
+      "code": "sp",
+      "grade": "A"
     }
   ],
   "노경은": [
@@ -1403,26 +1447,34 @@
       "grade": "A"
     },
     {
+      "code": "fo",
+      "grade": "A"
+    },
+    {
       "code": "sl",
       "grade": "A"
     },
     {
-      "code": "ch",
+      "code": "ft",
       "grade": "B"
     }
   ],
   "이용찬": [
     {
+      "code": "fo",
+      "grade": "S"
+    },
+    {
       "code": "ff",
       "grade": "A"
     },
     {
-      "code": "sl",
-      "grade": "A"
+      "code": "cb",
+      "grade": "B"
     },
     {
-      "code": "ch",
-      "grade": "B"
+      "code": "sl",
+      "grade": "D"
     }
   ],
   "장원준": [
@@ -1431,11 +1483,15 @@
       "grade": "A"
     },
     {
+      "code": "ch",
+      "grade": "S"
+    },
+    {
       "code": "sl",
       "grade": "A"
     },
     {
-      "code": "ch",
+      "code": "cb",
       "grade": "B"
     }
   ],
@@ -1446,7 +1502,7 @@
     },
     {
       "code": "sl",
-      "grade": "A"
+      "grade": "S"
     },
     {
       "code": "ch",
@@ -1455,7 +1511,7 @@
   ],
   "오주원": [
     {
-      "code": "ff",
+      "code": "si",
       "grade": "A"
     },
     {
@@ -1465,6 +1521,10 @@
     {
       "code": "ch",
       "grade": "B"
+    },
+    {
+      "code": "ff",
+      "grade": "C"
     }
   ],
   "김택형": [
@@ -1479,6 +1539,10 @@
     {
       "code": "ch",
       "grade": "B"
+    },
+    {
+      "code": "sw",
+      "grade": "C"
     }
   ],
   "심재민": [
@@ -1505,22 +1569,26 @@
       "grade": "A"
     },
     {
-      "code": "ch",
+      "code": "fo",
       "grade": "B"
     }
   ],
   "주권": [
     {
-      "code": "ff",
-      "grade": "A"
-    },
-    {
-      "code": "sl",
+      "code": "ft",
       "grade": "A"
     },
     {
       "code": "ch",
+      "grade": "A"
+    },
+    {
+      "code": "fo",
       "grade": "B"
+    },
+    {
+      "code": "cb",
+      "grade": "C"
     }
   ],
   "김상수": [
@@ -1585,17 +1653,21 @@
       "grade": "A"
     },
     {
+      "code": "cb",
+      "grade": "S"
+    },
+    {
       "code": "sl",
-      "grade": "A"
+      "grade": "B"
     },
     {
       "code": "ch",
-      "grade": "B"
+      "grade": "C"
     }
   ],
   "이상열": [
     {
-      "code": "ff",
+      "code": "si",
       "grade": "A"
     },
     {
@@ -1605,6 +1677,10 @@
     {
       "code": "ch",
       "grade": "B"
+    },
+    {
+      "code": "ff",
+      "grade": "C"
     }
   ],
   "진필중": [
@@ -1613,11 +1689,11 @@
       "grade": "A"
     },
     {
-      "code": "sl",
-      "grade": "A"
+      "code": "fo",
+      "grade": "S"
     },
     {
-      "code": "cb",
+      "code": "sl",
       "grade": "B"
     }
   ],
@@ -1632,7 +1708,7 @@
     },
     {
       "code": "cb",
-      "grade": "B"
+      "grade": "A"
     }
   ],
   "배영수": [
@@ -1641,18 +1717,26 @@
       "grade": "A"
     },
     {
-      "code": "sl",
-      "grade": "A"
+      "code": "fo",
+      "grade": "S"
     },
     {
-      "code": "ch",
+      "code": "sl",
       "grade": "B"
+    },
+    {
+      "code": "cb",
+      "grade": "C"
     }
   ],
   "윤성환": [
     {
       "code": "ff",
       "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "S"
     },
     {
       "code": "sl",
@@ -1666,11 +1750,15 @@
   "백정현": [
     {
       "code": "ff",
+      "grade": "B"
+    },
+    {
+      "code": "sl",
       "grade": "A"
     },
     {
-      "code": "ch",
-      "grade": "A"
+      "code": "fo",
+      "grade": "B"
     },
     {
       "code": "cb",
@@ -1683,12 +1771,12 @@
       "grade": "A"
     },
     {
-      "code": "sl",
-      "grade": "A"
+      "code": "fo",
+      "grade": "S"
     },
     {
-      "code": "ch",
-      "grade": "B"
+      "code": "sl",
+      "grade": "D"
     }
   ],
   "문승원": [
@@ -1701,8 +1789,16 @@
       "grade": "A"
     },
     {
-      "code": "ch",
+      "code": "ft",
       "grade": "B"
+    },
+    {
+      "code": "fo",
+      "grade": "B"
+    },
+    {
+      "code": "cb",
+      "grade": "C"
     }
   ],
   "오원석": [
@@ -1711,12 +1807,16 @@
       "grade": "A"
     },
     {
-      "code": "sl",
+      "code": "ch",
+      "grade": "S"
+    },
+    {
+      "code": "cb",
       "grade": "A"
     },
     {
-      "code": "ch",
-      "grade": "B"
+      "code": "sl",
+      "grade": "D"
     }
   ],
   "고효준": [
@@ -1731,6 +1831,10 @@
     {
       "code": "ch",
       "grade": "B"
+    },
+    {
+      "code": "cb",
+      "grade": "C"
     }
   ],
   "홍건희": [
@@ -1743,7 +1847,7 @@
       "grade": "A"
     },
     {
-      "code": "ch",
+      "code": "fo",
       "grade": "B"
     }
   ],
@@ -1781,12 +1885,20 @@
       "grade": "A"
     },
     {
-      "code": "sl",
+      "code": "ch",
       "grade": "A"
     },
     {
-      "code": "ch",
+      "code": "ct",
+      "grade": "A"
+    },
+    {
+      "code": "ft",
       "grade": "B"
+    },
+    {
+      "code": "cb",
+      "grade": "C"
     }
   ],
   "이승호": [
@@ -1800,6 +1912,10 @@
     },
     {
       "code": "ch",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
       "grade": "B"
     }
   ],
@@ -1807,6 +1923,10 @@
     {
       "code": "ff",
       "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "S"
     },
     {
       "code": "ft",
@@ -1865,7 +1985,7 @@
   ],
   "조현우": [
     {
-      "code": "ff",
+      "code": "si",
       "grade": "A"
     },
     {
@@ -1873,8 +1993,12 @@
       "grade": "A"
     },
     {
-      "code": "ch",
+      "code": "cb",
       "grade": "B"
+    },
+    {
+      "code": "ff",
+      "grade": "C"
     }
   ],
   "송명기": [
@@ -1883,11 +2007,11 @@
       "grade": "A"
     },
     {
-      "code": "sl",
-      "grade": "A"
+      "code": "sw",
+      "grade": "S"
     },
     {
-      "code": "ch",
+      "code": "fo",
       "grade": "B"
     }
   ],
@@ -1901,7 +2025,7 @@
       "grade": "A"
     },
     {
-      "code": "ch",
+      "code": "fo",
       "grade": "B"
     }
   ],
@@ -1943,7 +2067,7 @@
       "grade": "A"
     },
     {
-      "code": "ch",
+      "code": "fo",
       "grade": "B"
     }
   ],
@@ -2075,8 +2199,12 @@
       "grade": "A"
     },
     {
-      "code": "cb",
+      "code": "ch",
       "grade": "B"
+    },
+    {
+      "code": "cb",
+      "grade": "C"
     }
   ],
   "이상군": [
@@ -2157,11 +2285,15 @@
       "grade": "A"
     },
     {
-      "code": "sl",
+      "code": "ch",
       "grade": "A"
     },
     {
-      "code": "ch",
+      "code": "sl",
+      "grade": "B"
+    },
+    {
+      "code": "cb",
       "grade": "B"
     }
   ],
@@ -2291,16 +2423,16 @@
       "grade": "A"
     },
     {
-      "code": "sl",
+      "code": "cb",
       "grade": "A"
     },
     {
-      "code": "ch",
+      "code": "ft",
       "grade": "B"
     },
     {
-      "code": "cb",
-      "grade": "C"
+      "code": "ct",
+      "grade": "B"
     }
   ],
   "박동희": [

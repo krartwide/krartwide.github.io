@@ -1188,6 +1188,13 @@ function arsenalFromPairs(pairs) {
   return out;
 }
 
+// Authoritative re-checks (야구나라 / 나무위키 / 기사) win over older RESEARCHED rows.
+const correctionsPath = path.join(root, "src/data/arsenal-corrections.json");
+if (fs.existsSync(correctionsPath)) {
+  const corrections = JSON.parse(fs.readFileSync(correctionsPath, "utf8"));
+  Object.assign(RESEARCHED, corrections);
+}
+
 function heuristic(player) {
   const throws = player.throws === "L" ? "L" : "R";
   const slot = player.armSlot || "";
