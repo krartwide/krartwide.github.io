@@ -2,7 +2,7 @@
 
 import canonicalRaw from "@/data/canonical-teams.json";
 import { ACHIEVEMENT_CATALOG, type AchievementKey } from "@/lib/achievement-catalog";
-import { defaultArmSlot } from "@/lib/arm-slot";
+import { defaultArmSlot, KNOWN_ARM_SLOTS } from "@/lib/arm-slot";
 import { idbDelete, idbGet, idbGetAll, idbPut } from "@/lib/browser-db";
 import { rememberDeletedGameId, removeDeletedGameId } from "@/lib/deleted-games";
 import { newId, rosterIssues } from "@/lib/stats";
@@ -36,10 +36,18 @@ function mergePlayers(canon: Player[], override: Player[] | undefined): Player[]
     if (!local) {
       return player.kind === "P" ? { ...player, armSlot: player.armSlot ?? defaultArmSlot(player.name, player.throws) } : player;
     }
+    const name = local.name || player.name;
+    const throws = local.throws || player.throws;
+    // Documented deliveries win over stale IndexedDB copies of public-club pitchers.
+    const known = player.kind === "P" ? KNOWN_ARM_SLOTS[name] : undefined;
     return {
       ...player,
       ...local,
-      armSlot: local.armSlot ?? player.armSlot ?? (player.kind === "P" ? defaultArmSlot(player.name, player.throws) : undefined),
+      armSlot:
+        known ??
+        local.armSlot ??
+        player.armSlot ??
+        (player.kind === "P" ? defaultArmSlot(name, throws) : undefined),
       batter: local.batter ?? player.batter,
       pitcher: local.pitcher ?? player.pitcher,
       positions: local.positions?.length ? local.positions : player.positions,

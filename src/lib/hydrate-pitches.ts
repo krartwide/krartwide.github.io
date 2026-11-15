@@ -26,7 +26,7 @@ function metaFor(pitcherId: string, pitcherName: string, index: ReturnType<typeo
   return { armSlot, throws: player?.throws ?? throws };
 }
 
-/** Fill missing armSlot/throws on pitches from current roster data (keeps existing values). */
+/** Align pitch armSlot/throws with the current roster (rewrites outdated deliveries). */
 export function hydrateGameArmSlots(game: GameRecord, teams: Team[]): { game: GameRecord; changed: boolean } {
   const index = indexPlayers(teams);
   let changed = false;
@@ -36,7 +36,8 @@ export function hydrateGameArmSlots(game: GameRecord, teams: Team[]): { game: Ga
     const meta = metaFor(play.pitcherId, play.pitcherName, index);
     let playChanged = false;
     const pitches = play.pitches.map((pitch) => {
-      const nextSlot = isArmSlot(pitch.armSlot) ? pitch.armSlot : meta.armSlot;
+      // Always prefer current roster / known delivery so corrected forms rewrite old pitch logs.
+      const nextSlot = meta.armSlot;
       const nextThrows: Throws = pitch.throws === "L" || pitch.throws === "R" ? pitch.throws : meta.throws;
       if (pitch.armSlot === nextSlot && pitch.throws === nextThrows) return pitch;
       playChanged = true;

@@ -61,14 +61,7 @@ export function isArmSlot(value: unknown): value is ArmSlot {
 
 /**
  * Catcher's-eye release point inside the strike-zone SVG (viewBox 220×250).
- * Families are separated mainly by height (y↓ = lower arm) and lateral offset
- * (away from center toward the throwing arm). Gaps between families are intentional
- * so 하이 쓰리쿼터 never sits on top of 오버핸드.
- *
- *   overhand     y  8–18,  x≈4–14
- *   three_quarter y 30–46, x≈30–48
- *   sidearm      y 58–78, x≈54–70
- *   underhand    y 92–118,x≈58–72
+ * Families are separated mainly by height (y↓ = lower arm) and lateral offset.
  */
 export function releasePointForSlot(slot: ArmSlot | undefined, throws: Throws = "R"): { x: number; y: number } {
   const side = throws === "L" ? -1 : 1;
@@ -134,48 +127,120 @@ export function slotBreakBias(slot: ArmSlot | undefined): { x: number; y: number
   }
 }
 
-/** Well-known KBO arms — used when seeding canonical public clubs. */
+/**
+ * Documented / widely agreed KBO deliveries.
+ * Prefer this over hash defaults — wrong sidearm/underhand labels are worse than a bland three-quarter.
+ */
 export const KNOWN_ARM_SLOTS: Record<string, ArmSlot> = {
+  // —— Overhand ——
   선동열: "oh_true",
   오승환: "oh_true",
+  한기주: "oh_true",
+  염종석: "oh_true",
+  조계현: "oh_true",
+  정민태: "oh_true",
+  안우진: "oh_true",
+  폰트: "oh_true",
+  헥터: "oh_true",
+  밴덴헐크: "oh_true",
+  보우덴: "oh_true",
+  레이번: "oh_true",
+  다카쓰: "oh_true",
+  송진우: "oh_low",
+  유희관: "oh_low",
+
+  // —— Three-quarter ——
   류현진: "tq_true",
   김광현: "tq_true",
-  정대현: "un_sub",
-  고영표: "sa_true",
   양현종: "tq_true",
   구창모: "tq_high",
-  폰트: "oh_true",
-  밴헤켄: "tq_true",
-  니퍼트: "tq_true",
-  장명부: "tq_low",
-  임창용: "sa_true",
-  한기주: "oh_true",
-  김재윤: "tq_true",
-  위재영: "tq_true",
-  구대성: "sa_low",
-  송진우: "oh_low",
-  정민태: "oh_true",
-  정민철: "tq_true",
-  밴덴헐크: "oh_true",
-  데스파이네: "tq_true",
-  쿠에바스: "tq_true",
-  소형준: "tq_true",
-  배제성: "tq_true",
-  루친스키: "tq_true",
-  헥터: "oh_true",
-  조계현: "oh_true",
-  이강철: "sa_true",
-  염종석: "oh_true",
-  김상진: "tq_true",
   윤석민: "tq_high",
+  정민철: "tq_true",
+  김상진: "tq_true",
   봉중근: "tq_true",
   장원삼: "tq_true",
   권혁: "tq_true",
+  위재영: "tq_true",
+  김재윤: "tq_true",
+  소형준: "tq_true",
+  배제성: "tq_true",
+  쿠에바스: "tq_true",
+  데스파이네: "tq_true",
+  루친스키: "tq_true",
+  니퍼트: "tq_true",
+  밴헤켄: "tq_true",
+  요키시: "tq_true",
+  브리검: "tq_true",
+  장원준: "tq_true",
+  이용찬: "tq_true",
+  손승락: "tq_true",
+  하영민: "tq_true",
+  임창민: "tq_true",
+  노경은: "tq_true",
+  정우람: "tq_true", // 좌완 정통 불펜 — 사이드암 아님
+  장명부: "tq_low",
+  윤성환: "tq_true",
+  배영수: "tq_true",
+  송승준: "tq_high",
+  채병용: "tq_high",
+  조상우: "tq_high",
+  안지만: "tq_high",
+  소사: "tq_high",
+  팻딘: "tq_high",
+  차우찬: "tq_low",
+  함덕주: "tq_high",
+  이현승: "tq_true",
+  오주원: "tq_true",
+  김택형: "tq_true",
+  심재민: "tq_true",
+  이상열: "tq_true",
+  김원형: "tq_true",
+  송신영: "tq_true",
+  윤길현: "tq_true",
+  진필중: "tq_true",
+  김진성: "tq_true",
+  문성현: "tq_true",
+  주권: "tq_true",
+  김상수: "tq_true",
+  김용수: "oh_true",
+  모리만도: "tq_low",
+  라이트: "tq_true",
+  마틴: "tq_true",
+
+  // —— Sidearm ——
+  임창용: "sa_true",
+  고영표: "sa_low", // 낮은 사이드 / 높은 언더 경계
+  구대성: "sa_true",
+  심창민: "sa_true",
+  한현희: "sa_true",
+  마정길: "sa_true",
+  원종현: "sa_low",
+  임기영: "sa_true",
+  조웅천: "sa_true",
+  정명원: "sa_true",
+  가득염: "sa_true",
+  최창호: "sa_high",
+
+  // —— Underhand / submarine ——
+  이강철: "un_true",
+  한희민: "un_true",
+  박정현: "un_sub",
+  김현욱: "un_true",
+  정대현: "un_sub",
+  박종훈: "un_sub",
+  김신부: "un_true",
+  조용훈: "un_true",
+  성영재: "un_high",
+  이길환: "un_true",
+  이광권: "un_true",
+  박동수: "un_true",
+  양현: "un_true",
+  김대우: "un_true",
 };
 
 /** Pick a sensible default when a pitcher has no stored slot. */
 export function defaultArmSlot(name: string, throws: Throws = "R"): ArmSlot {
   if (KNOWN_ARM_SLOTS[name]) return KNOWN_ARM_SLOTS[name]!;
-  // Lefties skew a touch more three-quarter in this sim's defaults.
+  // Unknown arms: conventional defaults (do not invent sidearm/underhand).
   return throws === "L" ? "tq_true" : "oh_true";
 }
