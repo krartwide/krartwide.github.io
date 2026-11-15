@@ -19,6 +19,8 @@ if [[ -d src/app/api ]]; then
 fi
 
 export GITHUB_PAGES=true
-npx next build
+# Webpack avoids a flaky Turbopack + next/font/google resolution failure in CI
+# (`@vercel/turbopack-next/internal/font/google/font`).
+npx next build --webpack
 
 echo "Static site ready in out/ (site root)"

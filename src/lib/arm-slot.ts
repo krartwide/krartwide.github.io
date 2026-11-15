@@ -62,78 +62,78 @@ export function isArmSlot(value: unknown): value is ArmSlot {
 /**
  * Catcher's-eye release point inside the strike-zone SVG (viewBox 220×250).
  * Home plate sits near y≈214; the zone box is roughly y≈82–163.
- * Larger y = lower arm slot. Whole ladder sits lower than the old top-of-canvas band
- * so underhand reads below the zone midline, not like a high three-quarter.
+ * Larger y = lower arm slot. Ladder sits well below the canvas top so
+ * underhand is near the knees/plate, not visually near three-quarter.
  *
- *   overhand      y  28–42
- *   three_quarter y  54–72
- *   sidearm       y  90–114
- *   underhand     y 132–170
+ *   overhand      y  48–64
+ *   three_quarter y  78–98
+ *   sidearm       y 118–146
+ *   underhand     y 168–208
  */
 export function releasePointForSlot(slot: ArmSlot | undefined, throws: Throws = "R"): { x: number; y: number } {
   const side = throws === "L" ? -1 : 1;
   switch (slot ?? "tq_true") {
     case "oh_high":
-      return { x: 110 + side * 4, y: 28 };
+      return { x: 110 + side * 4, y: 48 };
     case "oh_true":
-      return { x: 110 + side * 9, y: 35 };
+      return { x: 110 + side * 9, y: 56 };
     case "oh_low":
-      return { x: 110 + side * 14, y: 42 };
+      return { x: 110 + side * 14, y: 64 };
     case "tq_high":
-      return { x: 110 + side * 28, y: 54 };
+      return { x: 110 + side * 28, y: 78 };
     case "tq_true":
-      return { x: 110 + side * 36, y: 63 };
+      return { x: 110 + side * 36, y: 88 };
     case "tq_low":
-      return { x: 110 + side * 46, y: 72 };
+      return { x: 110 + side * 46, y: 98 };
     case "sa_high":
-      return { x: 110 + side * 54, y: 90 };
+      return { x: 110 + side * 54, y: 118 };
     case "sa_true":
-      return { x: 110 + side * 62, y: 102 };
+      return { x: 110 + side * 62, y: 132 };
     case "sa_low":
-      return { x: 110 + side * 70, y: 114 };
+      return { x: 110 + side * 70, y: 146 };
     case "un_high":
-      return { x: 110 + side * 56, y: 132 };
+      return { x: 110 + side * 56, y: 168 };
     case "un_true":
-      return { x: 110 + side * 64, y: 150 };
+      return { x: 110 + side * 64, y: 188 };
     case "un_sub":
-      return { x: 110 + side * 72, y: 170 };
+      return { x: 110 + side * 72, y: 208 };
     default:
-      return { x: 110 + side * 36, y: 63 };
+      return { x: 110 + side * 36, y: 88 };
   }
 }
 
 /**
- * Mid-path bend. Keep vertical bias modest — large +y made underhand arcs look
- * like every pitch was hooked upward into a three-quarter tunnel.
+ * Mid-path bend. Keep underhand nearly straight — large bias made every
+ * underhand pitch look hooked like a high three-quarter tunnel.
  */
 export function slotBreakBias(slot: ArmSlot | undefined): { x: number; y: number } {
   switch (slot ?? "tq_true") {
     case "oh_high":
-      return { x: 0, y: -4 };
+      return { x: 0, y: -3 };
     case "oh_true":
-      return { x: 1, y: -2 };
+      return { x: 1, y: -1 };
     case "oh_low":
       return { x: 2, y: 0 };
     case "tq_high":
-      return { x: 5, y: 2 };
+      return { x: 4, y: 1 };
     case "tq_true":
-      return { x: 7, y: 3 };
+      return { x: 5, y: 2 };
     case "tq_low":
-      return { x: 9, y: 4 };
-    case "sa_high":
-      return { x: 11, y: 3 };
-    case "sa_true":
-      return { x: 13, y: 2 };
-    case "sa_low":
-      return { x: 15, y: 1 };
-    case "un_high":
-      return { x: 12, y: -2 };
-    case "un_true":
-      return { x: 14, y: -4 };
-    case "un_sub":
-      return { x: 16, y: -6 };
-    default:
       return { x: 7, y: 3 };
+    case "sa_high":
+      return { x: 8, y: 2 };
+    case "sa_true":
+      return { x: 10, y: 1 };
+    case "sa_low":
+      return { x: 12, y: 0 };
+    case "un_high":
+      return { x: 4, y: -1 };
+    case "un_true":
+      return { x: 5, y: -1 };
+    case "un_sub":
+      return { x: 6, y: -2 };
+    default:
+      return { x: 5, y: 2 };
   }
 }
 

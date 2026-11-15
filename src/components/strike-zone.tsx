@@ -85,14 +85,16 @@ function buildPitchFlight(pitch: PitchEvent) {
       breakY = 4;
   }
 
-  // Low slots already start near the zone — shrink vertical pitch-break so paths stay readable.
+  // Low slots start near/below the zone — keep underhand nearly linear so it
+  // does not read as a hooked three-quarter tunnel.
   const family = armSlotOption(pitch.armSlot).family;
   const breakScale =
-    family === "underhand" ? 0.35 : family === "sidearm" ? 0.55 : family === "three_quarter" ? 0.8 : 1;
+    family === "underhand" ? 0.12 : family === "sidearm" ? 0.4 : family === "three_quarter" ? 0.75 : 1;
+  const midT = family === "underhand" ? 0.5 : 0.55;
 
   const mid = {
-    x: release.x + (end.x - release.x) * 0.55 + breakX * breakScale + slotBias.x * side,
-    y: release.y + (end.y - release.y) * 0.55 + breakY * breakScale + slotBias.y,
+    x: release.x + (end.x - release.x) * midT + breakX * breakScale + slotBias.x * side,
+    y: release.y + (end.y - release.y) * midT + breakY * breakScale + slotBias.y,
   };
 
   const points = sampleQuadratic(release, mid, end);
