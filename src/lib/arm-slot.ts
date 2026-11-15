@@ -59,66 +59,78 @@ export function isArmSlot(value: unknown): value is ArmSlot {
   return typeof value === "string" && BY_ID.has(value as ArmSlot);
 }
 
-/** Catcher's-eye release point inside the strike-zone SVG (viewBox 220×250). */
+/**
+ * Catcher's-eye release point inside the strike-zone SVG (viewBox 220×250).
+ * Families are separated mainly by height (y↓ = lower arm) and lateral offset
+ * (away from center toward the throwing arm). Gaps between families are intentional
+ * so 하이 쓰리쿼터 never sits on top of 오버핸드.
+ *
+ *   overhand     y  8–18,  x≈4–14
+ *   three_quarter y 30–46, x≈30–48
+ *   sidearm      y 58–78, x≈54–70
+ *   underhand    y 92–118,x≈58–72
+ */
 export function releasePointForSlot(slot: ArmSlot | undefined, throws: Throws = "R"): { x: number; y: number } {
   const side = throws === "L" ? -1 : 1;
   switch (slot ?? "tq_true") {
     case "oh_high":
-      return { x: 110 + side * 6, y: 10 };
+      return { x: 110 + side * 4, y: 8 };
     case "oh_true":
-      return { x: 110 + side * 8, y: 14 };
+      return { x: 110 + side * 9, y: 13 };
     case "oh_low":
-      return { x: 110 + side * 12, y: 18 };
+      return { x: 110 + side * 14, y: 18 };
     case "tq_high":
-      return { x: 110 + side * 18, y: 16 };
+      return { x: 110 + side * 30, y: 30 };
     case "tq_true":
-      return { x: 110 + side * 24, y: 20 };
+      return { x: 110 + side * 38, y: 38 };
     case "tq_low":
-      return { x: 110 + side * 30, y: 28 };
+      return { x: 110 + side * 48, y: 46 };
     case "sa_high":
-      return { x: 110 + side * 38, y: 34 };
+      return { x: 110 + side * 54, y: 58 };
     case "sa_true":
-      return { x: 110 + side * 46, y: 46 };
+      return { x: 110 + side * 62, y: 68 };
     case "sa_low":
-      return { x: 110 + side * 52, y: 58 };
+      return { x: 110 + side * 70, y: 78 };
     case "un_high":
-      return { x: 110 + side * 44, y: 68 };
+      return { x: 110 + side * 58, y: 92 };
     case "un_true":
-      return { x: 110 + side * 48, y: 82 };
+      return { x: 110 + side * 64, y: 104 };
     case "un_sub":
-      return { x: 110 + side * 54, y: 98 };
+      return { x: 110 + side * 72, y: 118 };
     default:
-      return { x: 110 + side * 24, y: 20 };
+      return { x: 110 + side * 38, y: 38 };
   }
 }
 
-/** Extra mid-path break bias from a low arm slot (more rise/angle for underhand visuals). */
+/** Extra mid-path bend so lower slots look like they sweep up into the zone. */
 export function slotBreakBias(slot: ArmSlot | undefined): { x: number; y: number } {
   switch (slot ?? "tq_true") {
     case "oh_high":
+      return { x: 0, y: -6 };
     case "oh_true":
-      return { x: 0, y: -2 };
+      return { x: 1, y: -3 };
     case "oh_low":
+      return { x: 2, y: 0 };
     case "tq_high":
-      return { x: 0, y: 0 };
+      return { x: 6, y: 4 };
     case "tq_true":
-      return { x: 2, y: 2 };
+      return { x: 9, y: 8 };
     case "tq_low":
-      return { x: 4, y: 6 };
+      return { x: 12, y: 12 };
     case "sa_high":
-      return { x: 6, y: 8 };
+      return { x: 14, y: 16 };
     case "sa_true":
-      return { x: 8, y: 12 };
+      return { x: 16, y: 20 };
     case "sa_low":
-      return { x: 10, y: 16 };
+      return { x: 18, y: 24 };
     case "un_high":
-      return { x: 8, y: 18 };
+      return { x: 14, y: 28 };
     case "un_true":
-      return { x: 10, y: 22 };
+      return { x: 16, y: 34 };
     case "un_sub":
-      return { x: 12, y: 28 };
+      return { x: 18, y: 40 };
     default:
-      return { x: 0, y: 0 };
+      return { x: 9, y: 8 };
   }
 }
 
