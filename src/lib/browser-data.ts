@@ -140,7 +140,35 @@ export async function listLocalGames(): Promise<GameRecord[]> {
 }
 
 export async function findLocalGame(id: string): Promise<GameRecord | null> {
-  return idbGet<GameRecord>("games", id);
+  const game = await idbGet<GameRecord>("games", id);
+  if (!game) return null;
+  const teams = await listLocalTeams();
+  const { hydrateGameArmSlots } = await import("@/lib/hydrate-pitches");
+  const { game: hydrated, changed } = hydrateGameArmSlots(game, teams);
+  if (changed) {
+    // Persist quietly so old records keep the form on later opens / sync.
+    await idbPut("games", hydrated);
+    void import("@/lib/cloud-sync").then((mod) => mod.syncCloudQuietly());
+  }
+  return hydrated;
+}
+
+/** Backfill arm slots onto every saved game that still lacks them. */
+export async function backfillGameArmSlots(): Promise<number> {
+  const teams = await listLocalTeams();
+  const { hydrateGameArmSlots } = await import("@/lib/hydrate-pitches");
+  const games = await idbGetAll<GameRecord>("games");
+  let updated = 0;
+  for (const game of games) {
+    const { game: hydrated, changed } = hydrateGameArmSlots(game, teams);
+    if (!changed) continue;
+    await idbPut("games", hydrated);
+    updated += 1;
+  }
+  if (updated > 0) {
+    void import("@/lib/cloud-sync").then((mod) => mod.syncCloudQuietly());
+  }
+  return updated;
 }
 
 export async function saveLocalGame(game: GameRecord) {
