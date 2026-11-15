@@ -232,14 +232,14 @@ export function GameView({ game }: { game: GameRecord }) {
                   <StrikeZone pitches={pa.pitches} activeId={active.id} onSelect={(pitch) => setActive(pitch)} />
                 </div>
                 {active.batted ? (
-                  <SprayChart ball={active.batted} />
+                  <SprayChart key={active.id} ball={active.batted} />
                 ) : (
-                  <p className="text-xs text-muted-foreground">인플레이된 공을 누르면 타구 방향이 나옵니다.</p>
+                  <p className="text-xs text-muted-foreground">인플레이된 공을 누르면 타구 궤적이 나옵니다.</p>
                 )}
               </div>
             ) : (
               <p className="text-sm leading-6 text-muted-foreground">
-                공 하나를 누르면 스트라이크 존에 찍힙니다. 배트가 맞았으면 방향, 비거리, 타구 속도도 같이 보입니다.
+                공 하나를 누르면 스트라이크 존에 찍힙니다. 배트가 맞았으면 흐릿한 궤적과 함께, 그 공의 속도·발사각으로 날아가는 모습이 보입니다.
               </p>
             )}
           </aside>
