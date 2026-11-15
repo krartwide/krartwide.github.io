@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { armSlotLabel, releasePointForSlot, slotBreakBias } from "@/lib/arm-slot";
+import { armSlotLabel, armSlotOption, releasePointForSlot, slotBreakBias } from "@/lib/arm-slot";
 import { pitchRpm } from "@/lib/pitch-metrics";
 import type { PitchEvent } from "@/lib/types";
 
@@ -85,9 +85,14 @@ function buildPitchFlight(pitch: PitchEvent) {
       breakY = 4;
   }
 
+  // Low slots already start near the zone — shrink vertical pitch-break so paths stay readable.
+  const family = armSlotOption(pitch.armSlot).family;
+  const breakScale =
+    family === "underhand" ? 0.35 : family === "sidearm" ? 0.55 : family === "three_quarter" ? 0.8 : 1;
+
   const mid = {
-    x: release.x + (end.x - release.x) * 0.55 + breakX + slotBias.x * side,
-    y: release.y + (end.y - release.y) * 0.55 + breakY + slotBias.y,
+    x: release.x + (end.x - release.x) * 0.55 + breakX * breakScale + slotBias.x * side,
+    y: release.y + (end.y - release.y) * 0.55 + breakY * breakScale + slotBias.y,
   };
 
   const points = sampleQuadratic(release, mid, end);
