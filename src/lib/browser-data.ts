@@ -5,6 +5,7 @@ import { ACHIEVEMENT_CATALOG, type AchievementKey } from "@/lib/achievement-cata
 import { defaultArmSlot, KNOWN_ARM_SLOTS } from "@/lib/arm-slot";
 import { idbDelete, idbGet, idbGetAll, idbPut } from "@/lib/browser-db";
 import { rememberDeletedGameId, removeDeletedGameId } from "@/lib/deleted-games";
+import { knownArsenal } from "@/lib/known-arsenals";
 import { normalizeArsenal } from "@/lib/pitch-catalog";
 import { newId, rosterIssues } from "@/lib/stats";
 import type { GameRecord, Player, SeriesFormat, SeriesRecord, Team, VenueMode } from "@/lib/types";
@@ -27,9 +28,11 @@ function mergePlayers(canon: Player[], override: Player[] | undefined): Player[]
     return canon.map((player) => {
       if (player.kind !== "P") return player;
       const known = KNOWN_ARM_SLOTS[player.name];
+      const arsenal = knownArsenal(player.name) ?? normalizeArsenal(player.arsenal);
       return {
         ...player,
         armSlot: known ?? player.armSlot ?? defaultArmSlot(player.name, player.throws),
+        arsenal: arsenal.length ? arsenal : player.arsenal,
       };
     });
   }
@@ -42,15 +45,18 @@ function mergePlayers(canon: Player[], override: Player[] | undefined): Player[]
     if (!local) {
       if (player.kind !== "P") return player;
       const known = KNOWN_ARM_SLOTS[player.name];
+      const arsenal = knownArsenal(player.name) ?? normalizeArsenal(player.arsenal);
       return {
         ...player,
         armSlot: known ?? player.armSlot ?? defaultArmSlot(player.name, player.throws),
+        arsenal: arsenal.length ? arsenal : player.arsenal,
       };
     }
     const name = local.name || player.name;
     const throws = local.throws || player.throws;
-    // Documented deliveries win over stale IndexedDB copies of public-club pitchers.
+    // Documented deliveries / arsenals win over stale IndexedDB copies of public-club pitchers.
     const known = player.kind === "P" ? KNOWN_ARM_SLOTS[name] : undefined;
+    const researched = player.kind === "P" ? knownArsenal(name) : undefined;
     const localArsenal = player.kind === "P" ? normalizeArsenal(local.arsenal) : [];
     const canonArsenal = player.kind === "P" ? normalizeArsenal(player.arsenal) : [];
     return {
@@ -61,8 +67,16 @@ function mergePlayers(canon: Player[], override: Player[] | undefined): Player[]
         local.armSlot ??
         player.armSlot ??
         (player.kind === "P" ? defaultArmSlot(name, throws) : undefined),
-      // Keep a user's custom arsenal; otherwise refresh from the bundled public roster.
-      arsenal: player.kind === "P" ? (localArsenal.length ? localArsenal : canonArsenal.length ? canonArsenal : undefined) : undefined,
+      arsenal:
+        player.kind === "P"
+          ? researched?.length
+            ? researched
+            : canonArsenal.length
+              ? canonArsenal
+              : localArsenal.length
+                ? localArsenal
+                : undefined
+          : undefined,
       batter: local.batter ?? player.batter,
       pitcher: local.pitcher ?? player.pitcher,
       positions: local.positions?.length ? local.positions : player.positions,

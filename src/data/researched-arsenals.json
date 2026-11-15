@@ -1,0 +1,3286 @@
+{
+  "고영표": [
+    {
+      "code": "ch",
+      "grade": "SS"
+    },
+    {
+      "code": "ft",
+      "grade": "A"
+    },
+    {
+      "code": "sw",
+      "grade": "B"
+    },
+    {
+      "code": "cb",
+      "grade": "A"
+    },
+    {
+      "code": "ff",
+      "grade": "C"
+    },
+    {
+      "code": "sl",
+      "grade": "D"
+    }
+  ],
+  "양현종": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "S"
+    },
+    {
+      "code": "cb",
+      "grade": "B"
+    }
+  ],
+  "구창모": [
+    {
+      "code": "ff",
+      "grade": "S"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "fo",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "C"
+    }
+  ],
+  "소형준": [
+    {
+      "code": "ft",
+      "grade": "S"
+    },
+    {
+      "code": "ct",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "B"
+    },
+    {
+      "code": "sw",
+      "grade": "C"
+    }
+  ],
+  "안우진": [
+    {
+      "code": "ff",
+      "grade": "SS"
+    },
+    {
+      "code": "sl",
+      "grade": "SS"
+    },
+    {
+      "code": "cb",
+      "grade": "S"
+    },
+    {
+      "code": "ch",
+      "grade": "A"
+    }
+  ],
+  "류현진": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "SS"
+    },
+    {
+      "code": "ct",
+      "grade": "S"
+    },
+    {
+      "code": "cb",
+      "grade": "A"
+    },
+    {
+      "code": "ft",
+      "grade": "B"
+    },
+    {
+      "code": "sl",
+      "grade": "C"
+    }
+  ],
+  "임기영": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "S"
+    },
+    {
+      "code": "sl",
+      "grade": "B"
+    },
+    {
+      "code": "ft",
+      "grade": "C"
+    }
+  ],
+  "한현희": [
+    {
+      "code": "sl",
+      "grade": "S"
+    },
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "C"
+    },
+    {
+      "code": "ft",
+      "grade": "C"
+    }
+  ],
+  "엄상백": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "A"
+    },
+    {
+      "code": "ct",
+      "grade": "B"
+    },
+    {
+      "code": "sl",
+      "grade": "B"
+    },
+    {
+      "code": "cb",
+      "grade": "C"
+    }
+  ],
+  "원종현": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "fo",
+      "grade": "B"
+    },
+    {
+      "code": "ft",
+      "grade": "C"
+    }
+  ],
+  "조상우": [
+    {
+      "code": "ff",
+      "grade": "S"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "fo",
+      "grade": "B"
+    },
+    {
+      "code": "ft",
+      "grade": "D"
+    }
+  ],
+  "이태양": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "fo",
+      "grade": "S"
+    },
+    {
+      "code": "sl",
+      "grade": "B"
+    },
+    {
+      "code": "cb",
+      "grade": "C"
+    }
+  ],
+  "선동열": [
+    {
+      "code": "ff",
+      "grade": "SS"
+    },
+    {
+      "code": "sl",
+      "grade": "S"
+    },
+    {
+      "code": "ft",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "B"
+    },
+    {
+      "code": "ch",
+      "grade": "C"
+    }
+  ],
+  "오승환": [
+    {
+      "code": "ff",
+      "grade": "SS"
+    },
+    {
+      "code": "sl",
+      "grade": "S"
+    },
+    {
+      "code": "cb",
+      "grade": "B"
+    },
+    {
+      "code": "ch",
+      "grade": "C"
+    },
+    {
+      "code": "sp",
+      "grade": "C"
+    }
+  ],
+  "김광현": [
+    {
+      "code": "ff",
+      "grade": "S"
+    },
+    {
+      "code": "sl",
+      "grade": "S"
+    },
+    {
+      "code": "ch",
+      "grade": "A"
+    },
+    {
+      "code": "ft",
+      "grade": "B"
+    },
+    {
+      "code": "cb",
+      "grade": "C"
+    }
+  ],
+  "임창용": [
+    {
+      "code": "ff",
+      "grade": "SS"
+    },
+    {
+      "code": "sp",
+      "grade": "S"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "B"
+    },
+    {
+      "code": "si",
+      "grade": "B"
+    }
+  ],
+  "정대현": [
+    {
+      "code": "si",
+      "grade": "SS"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "A"
+    },
+    {
+      "code": "ft",
+      "grade": "B"
+    }
+  ],
+  "박종훈": [
+    {
+      "code": "si",
+      "grade": "S"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    },
+    {
+      "code": "ff",
+      "grade": "C"
+    }
+  ],
+  "이강철": [
+    {
+      "code": "si",
+      "grade": "S"
+    },
+    {
+      "code": "sl",
+      "grade": "S"
+    },
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "A"
+    },
+    {
+      "code": "fo",
+      "grade": "B"
+    }
+  ],
+  "한희민": [
+    {
+      "code": "sl",
+      "grade": "S"
+    },
+    {
+      "code": "si",
+      "grade": "A"
+    },
+    {
+      "code": "ff",
+      "grade": "B"
+    },
+    {
+      "code": "cb",
+      "grade": "B"
+    }
+  ],
+  "박정현": [
+    {
+      "code": "si",
+      "grade": "SS"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "B"
+    },
+    {
+      "code": "ch",
+      "grade": "C"
+    }
+  ],
+  "유희관": [
+    {
+      "code": "si",
+      "grade": "S"
+    },
+    {
+      "code": "ch",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "A"
+    },
+    {
+      "code": "ff",
+      "grade": "C"
+    }
+  ],
+  "송진우": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "fo",
+      "grade": "S"
+    },
+    {
+      "code": "cb",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "B"
+    }
+  ],
+  "정민철": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "S"
+    },
+    {
+      "code": "cb",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "C"
+    }
+  ],
+  "정민태": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "B"
+    },
+    {
+      "code": "ch",
+      "grade": "C"
+    }
+  ],
+  "조계현": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "B"
+    }
+  ],
+  "염종석": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "B"
+    }
+  ],
+  "한기주": [
+    {
+      "code": "ff",
+      "grade": "S"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "C"
+    }
+  ],
+  "김용수": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "B"
+    }
+  ],
+  "박철순": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "pal",
+      "grade": "S"
+    },
+    {
+      "code": "sl",
+      "grade": "B"
+    },
+    {
+      "code": "cb",
+      "grade": "B"
+    }
+  ],
+  "장명부": [
+    {
+      "code": "si",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    },
+    {
+      "code": "ff",
+      "grade": "B"
+    },
+    {
+      "code": "sl",
+      "grade": "C"
+    }
+  ],
+  "김현욱": [
+    {
+      "code": "si",
+      "grade": "S"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    },
+    {
+      "code": "ff",
+      "grade": "C"
+    }
+  ],
+  "김신부": [
+    {
+      "code": "si",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "B"
+    }
+  ],
+  "김기태": [
+    {
+      "code": "si",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "B"
+    },
+    {
+      "code": "ff",
+      "grade": "C"
+    }
+  ],
+  "이길환": [
+    {
+      "code": "si",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "B"
+    }
+  ],
+  "이광권": [
+    {
+      "code": "si",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "B"
+    }
+  ],
+  "박동수": [
+    {
+      "code": "si",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "성영재": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "조용훈": [
+    {
+      "code": "si",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "양현": [
+    {
+      "code": "si",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "김대우": [
+    {
+      "code": "si",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "마정길": [
+    {
+      "code": "si",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    },
+    {
+      "code": "ff",
+      "grade": "C"
+    }
+  ],
+  "조웅천": [
+    {
+      "code": "si",
+      "grade": "S"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ff",
+      "grade": "B"
+    },
+    {
+      "code": "cb",
+      "grade": "C"
+    }
+  ],
+  "정명원": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "si",
+      "grade": "B"
+    }
+  ],
+  "구대성": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "S"
+    },
+    {
+      "code": "ch",
+      "grade": "A"
+    }
+  ],
+  "가득염": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "최창호": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "심창민": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "sp",
+      "grade": "B"
+    }
+  ],
+  "김성배": [
+    {
+      "code": "si",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ff",
+      "grade": "B"
+    }
+  ],
+  "박진태": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "이영욱": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "si",
+      "grade": "B"
+    }
+  ],
+  "폰트": [
+    {
+      "code": "ff",
+      "grade": "S"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "C"
+    }
+  ],
+  "헥터": [
+    {
+      "code": "ff",
+      "grade": "S"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "밴덴헐크": [
+    {
+      "code": "ff",
+      "grade": "S"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "보우덴": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "레이번": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "다카쓰": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "fo",
+      "grade": "S"
+    }
+  ],
+  "니퍼트": [
+    {
+      "code": "ft",
+      "grade": "S"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "A"
+    },
+    {
+      "code": "ff",
+      "grade": "B"
+    }
+  ],
+  "밴헤켄": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sp",
+      "grade": "S"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    }
+  ],
+  "요키시": [
+    {
+      "code": "ft",
+      "grade": "S"
+    },
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "B"
+    }
+  ],
+  "브리검": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "루친스키": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "ft",
+      "grade": "A"
+    },
+    {
+      "code": "ct",
+      "grade": "B"
+    },
+    {
+      "code": "sl",
+      "grade": "B"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "데스파이네": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "B"
+    }
+  ],
+  "쿠에바스": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "S"
+    },
+    {
+      "code": "ch",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "B"
+    }
+  ],
+  "소사": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "팻딘": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "B"
+    }
+  ],
+  "모리만도": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "B"
+    },
+    {
+      "code": "sl",
+      "grade": "C"
+    }
+  ],
+  "라이트": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "마틴": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "김재윤": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "fo",
+      "grade": "S"
+    }
+  ],
+  "위재영": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    }
+  ],
+  "윤석민": [
+    {
+      "code": "ff",
+      "grade": "S"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "봉중근": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "장원삼": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "B"
+    }
+  ],
+  "권혁": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "정우람": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "송승준": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "채병용": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "B"
+    }
+  ],
+  "안지만": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "차우찬": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "함덕주": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "배제성": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "si",
+      "grade": "B"
+    },
+    {
+      "code": "ch",
+      "grade": "C"
+    }
+  ],
+  "손승락": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "하영민": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "fo",
+      "grade": "A"
+    },
+    {
+      "code": "ct",
+      "grade": "B"
+    },
+    {
+      "code": "sw",
+      "grade": "B"
+    }
+  ],
+  "임창민": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "노경은": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "이용찬": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "장원준": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "이현승": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "오주원": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "김택형": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "심재민": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "B"
+    }
+  ],
+  "김진성": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "주권": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "김상수": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "문성현": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "송신영": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "윤길현": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "김원형": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "이상열": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "진필중": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "B"
+    }
+  ],
+  "김상진": [
+    {
+      "code": "sl",
+      "grade": "S"
+    },
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "B"
+    }
+  ],
+  "배영수": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "윤성환": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "백정현": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "B"
+    }
+  ],
+  "서진용": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "문승원": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "오원석": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "고효준": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "홍건희": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "김세현": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "심동섭": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "최원태": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "이승호": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "송은범": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "ft",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "B"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "김민수": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "박시영": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "이대은": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "조현우": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "송명기": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "김영규": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "임정호": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "홍성민": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "문경찬": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "김건태": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "손정욱": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "김태원": [
+    {
+      "code": "kn",
+      "grade": "SS"
+    },
+    {
+      "code": "ff",
+      "grade": "C"
+    },
+    {
+      "code": "cb",
+      "grade": "B"
+    },
+    {
+      "code": "ch",
+      "grade": "C"
+    }
+  ],
+  "윤학길": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "S"
+    },
+    {
+      "code": "cb",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "한용덕": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "B"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "이상훈": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "S"
+    },
+    {
+      "code": "ch",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "B"
+    }
+  ],
+  "정삼흠": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "차명석": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "B"
+    }
+  ],
+  "이상군": [
+    {
+      "code": "si",
+      "grade": "S"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "B"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "양상문": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "B"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "조규제": [
+    {
+      "code": "si",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "B"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "김수경": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    },
+    {
+      "code": "cb",
+      "grade": "C"
+    }
+  ],
+  "마일영": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "이대진": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "B"
+    },
+    {
+      "code": "ch",
+      "grade": "C"
+    }
+  ],
+  "윤명준": [
+    {
+      "code": "cb",
+      "grade": "S"
+    },
+    {
+      "code": "ff",
+      "grade": "B"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "C"
+    }
+  ],
+  "김강률": [
+    {
+      "code": "ff",
+      "grade": "S"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "홍상삼": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "이현호": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "김윤동": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "임기준": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "장지훈": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "최민준": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    },
+    {
+      "code": "cb",
+      "grade": "C"
+    }
+  ],
+  "박동희": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "B"
+    }
+  ],
+  "윤형배": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "이상번": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "B"
+    }
+  ],
+  "김상현": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "김태형": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "김종석": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "B"
+    }
+  ],
+  "이상목": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "김경원": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "B"
+    }
+  ],
+  "홍우태": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "임창식": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "김성민": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "윤영삼": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "김동준": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "이영준": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "박승민": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "노환수": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "전준호": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "황두성": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "김성현": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "강윤구": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "이보근": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "배힘찬": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "신철인": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "임선동": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "김현우": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "인현배": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "B"
+    }
+  ],
+  "김기범": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "차동철": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "강봉수": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "민원기": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "강길용": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "B"
+    }
+  ],
+  "권명철": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "이용호": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "장호연": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "B"
+    }
+  ],
+  "홍길남": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "김기덕": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "박성기": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "박주언": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "박진석": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "오봉옥": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "유현승": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "최정환": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "김인권": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "B"
+    }
+  ],
+  "김홍명": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "장정순": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "B"
+    }
+  ],
+  "지연규": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "강태원": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "김정수": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "문희수": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "B"
+    }
+  ],
+  "송유석": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "신동수": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "박은진": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "신완근": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "B"
+    }
+  ],
+  "조병천": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "김봉근": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "신태중": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "정선두": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "B"
+    }
+  ],
+  "정성만": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "정은배": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "최계훈": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "김상기": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "김재현": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "오문현": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "B"
+    }
+  ],
+  "인호봉": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "임호균": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "오영일": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "유종겸": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "이원국": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "cb",
+      "grade": "B"
+    }
+  ],
+  "정순명": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ],
+  "하기룡": [
+    {
+      "code": "ff",
+      "grade": "A"
+    },
+    {
+      "code": "sl",
+      "grade": "A"
+    },
+    {
+      "code": "ch",
+      "grade": "B"
+    }
+  ]
+}

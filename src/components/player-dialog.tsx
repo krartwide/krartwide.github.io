@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { PitchArsenalEditor } from "@/components/pitch-arsenal-editor";
+import { knownArsenal } from "@/lib/known-arsenals";
 import { CountField, RateField } from "@/components/rate-field";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogFooter, DialogHeader, DialogTitle } from "@/components/ui/dialog";
@@ -22,7 +23,7 @@ export function PlayerDialog({
 }) {
   const [draft, setDraft] = useState(() => {
     if (player.kind !== "P") return player;
-    const arsenal = normalizeArsenal(player.arsenal);
+    const arsenal = knownArsenal(player.name) ?? normalizeArsenal(player.arsenal);
     return arsenal.length ? { ...player, arsenal } : { ...player, arsenal: defaultArsenal(player.throws) };
   });
   const batter = draft.batter;

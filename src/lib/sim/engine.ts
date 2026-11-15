@@ -1,4 +1,5 @@
 import { defaultArmSlot } from "@/lib/arm-slot";
+import { knownArsenal } from "@/lib/known-arsenals";
 import {
   arsenalFromCodes,
   normalizeArsenal,
@@ -84,48 +85,50 @@ type BatLine = {
   hbp: number;
 };
 
-/** Legacy named arsenals — used to seed players without an explicit arsenal. */
+/** Legacy code-only fallback when researched arsenals / player.arsenal are absent. */
 const SIGNATURE: Record<string, string[]> = {
-  선동열: ["ff", "fo", "sl"],
-  오승환: ["ff", "sl", "cb"],
-  류현진: ["ff", "ch", "cb", "sl"],
-  김광현: ["ff", "sl", "ch"],
-  정대현: ["si", "sl", "ft"],
-  고영표: ["ch", "si", "cb", "ff"],
-  유희관: ["si", "ch", "cb"],
-  양현종: ["ff", "sl", "ch"],
-  구창모: ["ff", "sl", "ch"],
-  폰트: ["ff", "sl", "ch"],
+  선동열: ["ff", "sl", "ft", "cb", "ch"],
+  오승환: ["ff", "sl", "cb", "ch", "sp"],
+  류현진: ["ff", "ch", "ct", "cb", "ft", "sl"],
+  김광현: ["ff", "sl", "ch", "ft", "cb"],
+  정대현: ["si", "sl", "cb", "ft"],
+  고영표: ["ch", "ft", "sw", "cb", "ff", "sl"],
+  유희관: ["si", "ch", "cb", "ff"],
+  양현종: ["ff", "sl", "ch", "cb"],
+  구창모: ["ff", "sl", "fo", "cb"],
+  안우진: ["ff", "sl", "cb", "ch"],
+  김태원: ["kn", "ff", "cb", "ch"],
+  임창용: ["ff", "sp", "sl", "cb", "si"],
+  폰트: ["ff", "sl", "ch", "cb"],
   밴헤켄: ["ff", "sp", "sl"],
-  니퍼트: ["ft", "sl", "ch"],
-  장명부: ["si", "cb", "ch", "ff"],
-  임창용: ["ff", "sp", "sl"],
-  한기주: ["ff", "sl"],
+  니퍼트: ["ft", "sl", "ch", "ff"],
+  장명부: ["si", "cb", "ch", "ff", "sl"],
+  한기주: ["ff", "sl", "cb"],
   김재윤: ["ff", "sl", "fo"],
   위재영: ["ff", "sl"],
   구대성: ["ff", "sl", "ch"],
-  송진우: ["ff", "fo", "cb"],
-  정민태: ["ff", "sl", "cb"],
-  정민철: ["ff", "sl", "cb"],
+  송진우: ["ff", "fo", "cb", "sl"],
+  정민태: ["ff", "sl", "cb", "ch"],
+  정민철: ["ff", "sl", "cb", "ch"],
   밴덴헐크: ["ff", "sl", "ch"],
   데스파이네: ["ff", "ch", "sl"],
-  쿠에바스: ["ff", "cb", "ch"],
-  소형준: ["ff", "sl", "ch"],
-  배제성: ["ff", "sl", "si"],
-  루친스키: ["ff", "sl", "ch"],
+  쿠에바스: ["ff", "cb", "ch", "sl"],
+  소형준: ["ft", "ct", "ch", "cb", "sw"],
+  배제성: ["ff", "sl", "si", "ch"],
+  루친스키: ["ff", "ft", "ct", "sl", "ch"],
   헥터: ["ff", "sl", "ch"],
   조계현: ["ff", "sl", "cb"],
-  이강철: ["ff", "sl", "fo"],
+  이강철: ["si", "sl", "ff", "cb", "fo"],
   염종석: ["ff", "sl", "cb"],
   김상진: ["sl", "ff", "cb"],
   윤석민: ["ff", "sl", "ch"],
   봉중근: ["ff", "sl", "ch"],
   장원삼: ["ff", "ch", "cb"],
   권혁: ["ff", "sl", "ch"],
-  박종훈: ["si", "sl", "cb", "ch"],
-  임기영: ["ff", "sl", "ch", "cb"],
-  한현희: ["ff", "sl", "ch"],
-  엄상백: ["ff", "ch", "ct", "sl"],
+  박종훈: ["si", "sl", "cb", "ch", "ff"],
+  임기영: ["ff", "ch", "sl", "ft"],
+  한현희: ["sl", "ff", "ch", "ft"],
+  엄상백: ["ff", "ch", "ct", "sl", "cb"],
 };
 
 const CALL_LABEL: Record<PitchCall, string> = {
@@ -329,6 +332,8 @@ function heuristicCodes(player: Player): string[] {
 }
 
 function repertoire(player: Player): PitchArsenalEntry[] {
+  const researched = knownArsenal(player.name);
+  if (researched?.length) return researched;
   const owned = normalizeArsenal(player.arsenal);
   if (owned.length) return owned;
   return arsenalFromCodes(heuristicCodes(player));
