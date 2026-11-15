@@ -844,7 +844,7 @@
           "er": 24,
           "r": 24
         },
-        "armSlot": "oh_true"
+        "armSlot": "sa_high"
       },
       {
         "id": "canon-2021-kt:p64001",
@@ -875,7 +875,7 @@
           "er": 54,
           "r": 59
         },
-        "armSlot": "sa_low"
+        "armSlot": "un_high"
       },
       {
         "id": "canon-2021-kt:p65060",
@@ -2939,7 +2939,7 @@
           "er": 48,
           "r": 54
         },
-        "armSlot": "sa_true"
+        "armSlot": "un_high"
       },
       {
         "id": "canon-2017-ht:p95657",
@@ -3156,7 +3156,7 @@
           "er": 42,
           "r": 45
         },
-        "armSlot": "oh_true"
+        "armSlot": "sa_true"
       },
       {
         "id": "canon-2017-ht:p76350",
@@ -5057,7 +5057,7 @@
           "er": 25,
           "r": 26
         },
-        "armSlot": "oh_true"
+        "armSlot": "sa_true"
       },
       {
         "id": "canon-2016-ob:p63248",
@@ -10152,7 +10152,7 @@
           "er": 34,
           "r": 37
         },
-        "armSlot": "sa_true"
+        "armSlot": "sa_low"
       },
       {
         "id": "canon-2014-wo:p61365",
@@ -16942,7 +16942,7 @@
           "er": 18,
           "r": 21
         },
-        "armSlot": "oh_true"
+        "armSlot": "sa_true"
       },
       {
         "id": "canon-2008-sk:p71801",
@@ -19522,7 +19522,7 @@
           "er": 62,
           "r": 73
         },
-        "armSlot": "oh_true"
+        "armSlot": "un_high"
       }
     ],
     "createdAt": "1986-10-01T00:00:00.000Z"

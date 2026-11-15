@@ -139,7 +139,8 @@ export function slotBreakBias(slot: ArmSlot | undefined): { x: number; y: number
 
 /**
  * Documented / widely agreed KBO deliveries.
- * Prefer this over hash defaults — wrong sidearm/underhand labels are worse than a bland three-quarter.
+ * Prefer this over stale roster copies — wrong sidearm/underhand labels are worse than a bland three-quarter.
+ * Borderline high-under vs low-side arms use un_high / sa_low.
  */
 export const KNOWN_ARM_SLOTS: Record<string, ArmSlot> = {
   // —— Overhand ——
@@ -158,6 +159,8 @@ export const KNOWN_ARM_SLOTS: Record<string, ArmSlot> = {
   다카쓰: "oh_true",
   송진우: "oh_low",
   유희관: "oh_low",
+  김용수: "oh_true",
+  이태양: "oh_true", // SSG 우완 정통 (NC 동명이인 언더와 별개)
 
   // —— Three-quarter ——
   류현진: "tq_true",
@@ -212,24 +215,25 @@ export const KNOWN_ARM_SLOTS: Record<string, ArmSlot> = {
   문성현: "tq_true",
   주권: "tq_true",
   김상수: "tq_true",
-  김용수: "oh_true",
   모리만도: "tq_low",
   라이트: "tq_true",
   마틴: "tq_true",
 
   // —— Sidearm ——
   임창용: "sa_true",
-  고영표: "sa_low", // 낮은 사이드 / 높은 언더 경계
   구대성: "sa_true",
   심창민: "sa_true",
   한현희: "sa_true",
-  마정길: "sa_true",
   원종현: "sa_low",
-  임기영: "sa_true",
   조웅천: "sa_true",
   정명원: "sa_true",
   가득염: "sa_true",
   최창호: "sa_high",
+  김성배: "sa_true",
+  박진태: "sa_true",
+  이영욱: "sa_true",
+  엄상백: "sa_high",
+  마정길: "sa_low", // 우언 표기 · 낮은 사이드 / 높은 언더 경계
 
   // —— Underhand / submarine ——
   이강철: "un_true",
@@ -246,6 +250,9 @@ export const KNOWN_ARM_SLOTS: Record<string, ArmSlot> = {
   박동수: "un_true",
   양현: "un_true",
   김대우: "un_true",
+  임기영: "un_high", // 높은 언더 (사이드로 오인되기 쉬움)
+  고영표: "un_high", // 높은 언더 / 낮은 사이드 경계 — KBO·위키 언더
+  김기태: "un_high", // 청보 재일 잠수함 (국내 시절 팔이 다소 올라옴)
 };
 
 /** Pick a sensible default when a pitcher has no stored slot. */

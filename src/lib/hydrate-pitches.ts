@@ -1,4 +1,4 @@
-import { defaultArmSlot, isArmSlot, type ArmSlot } from "@/lib/arm-slot";
+import { defaultArmSlot, isArmSlot, KNOWN_ARM_SLOTS, type ArmSlot } from "@/lib/arm-slot";
 import type { GameRecord, Player, Team, Throws } from "@/lib/types";
 
 type PitcherMeta = { armSlot: ArmSlot; throws: Throws };
@@ -19,10 +19,14 @@ function indexPlayers(teams: Team[]) {
 
 function metaFor(pitcherId: string, pitcherName: string, index: ReturnType<typeof indexPlayers>): PitcherMeta {
   const player = index.byId.get(pitcherId) ?? index.byName.get(pitcherName);
+  const name = player?.name ?? pitcherName;
   const throws: Throws = player?.throws === "L" ? "L" : player?.throws === "R" ? "R" : "R";
+  // Documented deliveries always win so corrected public-club forms rewrite old pitch logs.
+  const known = KNOWN_ARM_SLOTS[name];
   const armSlot =
+    known ??
     (player && isArmSlot(player.armSlot) ? player.armSlot : undefined) ??
-    defaultArmSlot(player?.name ?? pitcherName, throws);
+    defaultArmSlot(name, throws);
   return { armSlot, throws: player?.throws ?? throws };
 }
 

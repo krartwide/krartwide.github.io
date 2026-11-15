@@ -23,9 +23,14 @@ function withCanonicalFlag(team: Team): Team {
 /** Keep local logo/color edits while refreshing bundled pitcher arm slots. */
 function mergePlayers(canon: Player[], override: Player[] | undefined): Player[] {
   if (!override?.length) {
-    return canon.map((player) =>
-      player.kind === "P" ? { ...player, armSlot: player.armSlot ?? defaultArmSlot(player.name, player.throws) } : player,
-    );
+    return canon.map((player) => {
+      if (player.kind !== "P") return player;
+      const known = KNOWN_ARM_SLOTS[player.name];
+      return {
+        ...player,
+        armSlot: known ?? player.armSlot ?? defaultArmSlot(player.name, player.throws),
+      };
+    });
   }
   const byId = new Map(override.map((player) => [player.id, player]));
   const bySource = new Map(
@@ -34,7 +39,12 @@ function mergePlayers(canon: Player[], override: Player[] | undefined): Player[]
   const merged = canon.map((player) => {
     const local = byId.get(player.id) ?? (player.sourceId ? bySource.get(player.sourceId) : undefined);
     if (!local) {
-      return player.kind === "P" ? { ...player, armSlot: player.armSlot ?? defaultArmSlot(player.name, player.throws) } : player;
+      if (player.kind !== "P") return player;
+      const known = KNOWN_ARM_SLOTS[player.name];
+      return {
+        ...player,
+        armSlot: known ?? player.armSlot ?? defaultArmSlot(player.name, player.throws),
+      };
     }
     const name = local.name || player.name;
     const throws = local.throws || player.throws;
