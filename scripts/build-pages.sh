@@ -19,8 +19,9 @@ if [[ -d src/app/api ]]; then
 fi
 
 export GITHUB_PAGES=true
-# Webpack avoids a flaky Turbopack + next/font/google resolution failure in CI
-# (`@vercel/turbopack-next/internal/font/google/font`).
-npx next build --webpack
+# Must use Turbopack: Tailwind v4 is wired via next.config `turbopack.rules`
+# (`@tailwindcss/turbopack`). Webpack leaves `@tailwind utilities` unprocessed
+# and the whole UI collapses to unstyled markup.
+npx next build
 
 echo "Static site ready in out/ (site root)"
