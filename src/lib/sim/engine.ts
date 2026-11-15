@@ -1,3 +1,4 @@
+import { rollRpm } from "@/lib/pitch-metrics";
 import { batterOf, fmtIp, outsFromInnings, pitcherOf } from "@/lib/stats";
 import type {
   Bats,
@@ -1094,12 +1095,14 @@ class Sim {
       const typicalFb = maxFb - (2.4 + this.rng() * 3.6);
       let velo = typicalFb + (PITCH_OFF[code] ?? 0) + this.rng() * 2.2 - 0.8;
       if (code === "ff" && this.rng() < 0.14) velo = maxFb - this.rng() * 1.1;
+      const roundedVelo = clamp(Math.round(velo), 98, maxFb);
       const pitch: PitchEvent = {
         id: nid("pit"),
         number: pitches.length + 1,
         code,
         typeLabel: PITCH_NAME[code] ?? code,
-        velo: clamp(Math.round(velo), 98, maxFb),
+        velo: roundedVelo,
+        rpm: rollRpm(code, roundedVelo, this.rng),
         x: Math.round(spot.x * 100) / 100,
         y: Math.round(spot.y * 100) / 100,
         call,

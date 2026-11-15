@@ -4,6 +4,7 @@ import { useState } from "react";
 import { SprayChart } from "@/components/spray-chart";
 import { StrikeZone } from "@/components/strike-zone";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { pitchRpm } from "@/lib/pitch-metrics";
 import { groupHalves, halfLabel } from "@/lib/present";
 import { fmtIp } from "@/lib/stats";
 import { seriesMeta } from "@/lib/modes";
@@ -202,7 +203,7 @@ export function GameView({ game }: { game: GameRecord }) {
                                     {pitch.batted ? ` · ${pitch.batted.distance}m` : ""}
                                   </span>
                                   <span className="hidden sm:inline">
-                                    {pitch.number}구 {pitch.typeLabel} {pitch.velo}km {pitch.callLabel}
+                                    {pitch.number}구 {pitch.typeLabel} {pitch.velo}km · {pitchRpm(pitch).toLocaleString("ko-KR")}rpm {pitch.callLabel}
                                     {pitch.batted ? ` · ${pitch.batted.direction} ${pitch.batted.distance}m` : ""}
                                   </span>
                                 </button>
@@ -225,21 +226,22 @@ export function GameView({ game }: { game: GameRecord }) {
                     {pa.pitcherName} → {pa.batterName}
                   </p>
                   <p className="text-xs text-muted-foreground">
-                    {active.number}구 {active.typeLabel} {active.velo}km · {active.callLabel} · {active.locationLabel}
+                    {active.number}구 {active.typeLabel} {active.velo}km · {pitchRpm(active).toLocaleString("ko-KR")} rpm · {active.callLabel} ·{" "}
+                    {active.locationLabel}
                   </p>
                 </div>
                 <div className="mx-auto w-full max-w-[280px]">
-                  <StrikeZone pitches={pa.pitches} activeId={active.id} onSelect={(pitch) => setActive(pitch)} />
+                  <StrikeZone key={active.id} pitches={pa.pitches} activeId={active.id} onSelect={(pitch) => setActive(pitch)} />
                 </div>
                 {active.batted ? (
-                  <SprayChart key={active.id} ball={active.batted} />
+                  <SprayChart key={`bat-${active.id}`} ball={active.batted} />
                 ) : (
-                  <p className="text-xs text-muted-foreground">인플레이된 공을 누르면 타구 궤적이 나옵니다.</p>
+                  <p className="text-xs text-muted-foreground">인플레이면 아래에 타구 궤적도 이어서 보입니다.</p>
                 )}
               </div>
             ) : (
               <p className="text-sm leading-6 text-muted-foreground">
-                공 하나를 누르면 스트라이크 존에 찍힙니다. 배트가 맞았으면 흐릿한 궤적과 함께, 그 공의 속도·발사각으로 날아가는 모습이 보입니다.
+                공 하나를 누르면 투구 궤적이 속도·rpm에 맞춰 날아갑니다. 배트가 맞았으면 타구 궤적도 같이 보입니다.
               </p>
             )}
           </aside>

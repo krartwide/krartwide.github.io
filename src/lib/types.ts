@@ -123,6 +123,8 @@ export type PitchEvent = {
   code: string;
   typeLabel: string;
   velo: number;
+  /** Spin rate in RPM. Older saves may omit this — UI estimates from code/velo. */
+  rpm?: number;
   x: number;
   y: number;
   call: PitchCall;
